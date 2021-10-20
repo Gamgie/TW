@@ -168,6 +168,64 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &785328063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 785328065}
+  - component: {fileID: 785328064}
+  m_Layer: 0
+  m_Name: OSC Query
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &785328064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785328063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b410c968d301349a7ff6a8fac6be04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localPort: 1234
+  serverName: Unity-TW-OSCQuery
+  rootObject: {fileID: 1602745454}
+  objectFilterMode: 2
+  filteredObjects:
+  - {fileID: 1632521741}
+  - {fileID: 785328063}
+  - {fileID: 360229101}
+  componentFilterMode: 2
+  filteredComponentNames:
+  - MeshRenderer
+  - MeshFilter
+  - BoxCollider
+  - MeshCollider
+  excludeInternalUnityParams: 0
+--- !u!4 &785328065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785328063}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.43743792, y: 0.4132795, z: -1.4930868}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1261934298
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,9 +599,12 @@ MonoBehaviour:
     frequency: 0.2
     amplitude: 0.1
   maxShaking:
-    frequency: 4
+    frequency: 8
     amplitude: 0.2
-  size: 0.1
+  size: 0.132
+  breath: 0
+  breathAmplitude: 0.2
+  breathSpeed: 1
 --- !u!95 &1602745457
 Animator:
   serializedVersion: 3

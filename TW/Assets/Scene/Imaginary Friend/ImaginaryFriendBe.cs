@@ -7,23 +7,25 @@ public class ImaginaryFriendBe : MonoBehaviour
     [System.Serializable]
     public struct BrownianData {public float frequency;public float amplitude; }
 
-    [SerializeField] bool followMouse;
-    [SerializeField] float smoothFollow;
+    public bool followMouse;
+    public float smoothFollow;
     [Range(0,1)]
-    [SerializeField] float shaking;
-    [SerializeField] BrownianData minShaking;
-    [SerializeField] BrownianData maxShaking;
-    [Range(0, 3)]
-    [SerializeField] float sizeMultiplier = 1.0f;
-    [SerializeField] bool breath;
-    [SerializeField] float breathAmplitude = 1.0f;
-    [SerializeField] float breathSpeed = 1.0f;
+    public float shaking;
+    public BrownianData minShaking;
+    public BrownianData maxShaking;
+    [Range(0, 1)]
+    public float size = 1.0f;
+    public bool breath;
+    public float breathAmplitude = 1.0f;
+    public float breathSpeed = 1.0f;
 
     private Camera _cam;
     private Vector3 velocity = Vector3.zero;
     private GameObject _sphere = null;
     private Klak.Motion.BrownianMotion _brownianScript;
     private float _internalSize;
+    private float _breathTimer;
+    private float _lerpedBreathSpeed = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +33,8 @@ public class ImaginaryFriendBe : MonoBehaviour
         _cam = Camera.main;
         _brownianScript = GetComponentInChildren<Klak.Motion.BrownianMotion>();
         _sphere = _brownianScript.gameObject;
-        _internalSize = _sphere.transform.localScale.x;
+        _internalSize = 0;
+        _lerpedBreathSpeed = breathSpeed;
     }
 
     // Update is called once per frame
@@ -63,12 +66,8 @@ public class ImaginaryFriendBe : MonoBehaviour
 
         }
 
-        if(Keyboard.current.enterKey.wasPressedThisFrame)
-        {
-            BreathAnimation();
-        }
-
         UpdateBrownianNoise();
+        UpdateBreath();
         UpdateSize();
     }
 
@@ -84,38 +83,40 @@ public class ImaginaryFriendBe : MonoBehaviour
 
     void UpdateSize()
     {
-        if(!breath && !DOTween.IsTweening("Breath"))
-        {
-            _sphere.transform.localScale = new Vector3(_internalSize * sizeMultiplier, _internalSize * sizeMultiplier, _internalSize * sizeMultiplier);
-        }
-    }
-
-    public void BreathAnimation()
-    {
-        breath = !breath;
-        /*DOTween.Kill("Breath");
-
-        if (breath)
-        {
-            _sphere.transform.DOScale(_internalSize + breathAmplitude,breathSpeed).SetSpeedBased(true).SetLoops(-1, LoopType.Yoyo).SetId("Breath").SetEase(Ease.InOutQuad);
-        }
-        else
-        {
-            _sphere.transform.DOScale(_internalSize, breathSpeed).SetSpeedBased(true).SetId("Breath");
-        }*/
-
+        _sphere.transform.localScale = new Vector3(_internalSize + size, _internalSize + size, _internalSize + size);
     }
 
     void UpdateBreath()
     {
         if(breath)
         {
+            // We start to breath so let's synchronize breath speed
+            if(_breathTimer == Time.time)
+            {
+                _lerpedBreathSpeed = breathSpeed;
+            }
 
+            // progress is the wave going back and forth between 0 and 1
+            float progress = (1 + Mathf.Sin((Time.time - _breathTimer) * breathSpeed)) * 0.5f;
+            Debug.Log(progress);
+
+
+            // Compute breath value with ease quad
+            float breathValue = breathAmplitude * easeInOutQuad(progress);
+
+            // update internal size
+            _internalSize = Mathf.Lerp(_internalSize, breathValue,0.2f);
+        }
+
+        // Reset timer every frame when not breathing
+        if(!breath)
+        {
+            _breathTimer = Time.time;
+            _internalSize = Mathf.Lerp(_internalSize,0,0.1f);
         }
     }
 
     float easeInOutQuad(float progress) {
         return progress < 0.5 ? 2 * progress * progress : 1 - Mathf.Pow(-2 * progress + 2, 2) / 2;
-
     }
 }
