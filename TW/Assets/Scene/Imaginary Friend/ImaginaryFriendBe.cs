@@ -1,6 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.VFX;
 
 public class ImaginaryFriendBe : MonoBehaviour
 {
@@ -25,7 +26,8 @@ public class ImaginaryFriendBe : MonoBehaviour
     private Klak.Motion.BrownianMotion _brownianScript;
     private float _internalSize;
     private float _breathTimer;
-    private float _lerpedBreathSpeed = 0;
+    private VisualEffect _vfx;
+
 
     // Start is called before the first frame update
     void Start()
@@ -34,7 +36,8 @@ public class ImaginaryFriendBe : MonoBehaviour
         _brownianScript = GetComponentInChildren<Klak.Motion.BrownianMotion>();
         _sphere = _brownianScript.gameObject;
         _internalSize = 0;
-        _lerpedBreathSpeed = breathSpeed;
+
+        _vfx = GetComponentInChildren<VisualEffect>();
     }
 
     // Update is called once per frame
@@ -69,6 +72,7 @@ public class ImaginaryFriendBe : MonoBehaviour
         UpdateBrownianNoise();
         UpdateBreath();
         UpdateSize();
+        UpdateVFX();
     }
 
     void UpdateBrownianNoise()
@@ -90,11 +94,6 @@ public class ImaginaryFriendBe : MonoBehaviour
     {
         if(breath)
         {
-            // We start to breath so let's synchronize breath speed
-            if(_breathTimer == Time.time)
-            {
-                _lerpedBreathSpeed = breathSpeed;
-            }
 
             // progress is the wave going back and forth between 0 and 1
             float progress = (1 + Mathf.Sin((Time.time - _breathTimer) * breathSpeed)) * 0.5f;
@@ -118,5 +117,14 @@ public class ImaginaryFriendBe : MonoBehaviour
 
     float easeInOutQuad(float progress) {
         return progress < 0.5 ? 2 * progress * progress : 1 - Mathf.Pow(-2 * progress + 2, 2) / 2;
+    }
+
+    void UpdateVFX()
+    {
+        if (_vfx == null)
+            return;
+
+        if (_vfx.HasFloat("Emitter Size"))
+            _vfx.SetFloat("Emitter Size", size);
     }
 }

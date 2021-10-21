@@ -472,7 +472,7 @@ Transform:
   m_GameObject: {fileID: 1261934298}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.49, y: 0.49, z: 0.49}
   m_Children: []
   m_Father: {fileID: 1602745455}
   m_RootOrder: 0
@@ -507,7 +507,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261934298}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -605,7 +605,25 @@ VisualEffect:
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
-      m_Array: []
+      m_Array:
+      - m_Value: 0.13
+        m_Name: Size
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: Size Offset
+        m_Overridden: 1
+      - m_Value: 4.07
+        m_Name: Lifetime
+        m_Overridden: 1
+      - m_Value: 0.49
+        m_Name: Emitter Size
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: Emitter Size Offset
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: Emitter Size Factor
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
@@ -616,7 +634,7 @@ VisualEffect:
       m_Array: []
     m_Int:
       m_Array:
-      - m_Value: 1
+      - m_Value: 1416
         m_Name: Rate
         m_Overridden: 1
     m_Matrix4x4f:
@@ -647,7 +665,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!135 &1300945205
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -718,8 +736,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1300945204}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.286}
-  m_LocalScale: {x: 0.27193, y: 0.27193, z: 0.27193}
+  m_LocalPosition: {x: 0, y: 0, z: 0.587}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -966,7 +984,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1602745454}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.088, y: -0.033, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1261934299}
@@ -991,11 +1009,11 @@ MonoBehaviour:
   shaking: 0
   minShaking:
     frequency: 0.2
-    amplitude: 0.1
+    amplitude: 0.33
   maxShaking:
-    frequency: 8
-    amplitude: 0.2
-  size: 0.044
+    frequency: 4.26
+    amplitude: 0.73
+  size: 0.459
   breath: 0
   breathAmplitude: 0.2
   breathSpeed: 1
@@ -1096,7 +1114,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632521741}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -3.55}
+  m_LocalPosition: {x: 0, y: 0, z: -18.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1161,7 +1179,7 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
-  clearColorMode: 1
+  clearColorMode: 0
   backgroundColorHDR: {r: 0, g: 0, b: 0, a: 0}
   clearDepth: 1
   volumeLayerMask:
