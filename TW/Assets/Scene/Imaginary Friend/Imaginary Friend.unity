@@ -194,7 +194,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 598518821}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.82, y: -0.94, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1602745455}
@@ -456,6 +456,8 @@ GameObject:
   - component: {fileID: 1261934300}
   - component: {fileID: 1261934304}
   - component: {fileID: 1261934303}
+  - component: {fileID: 1261934306}
+  - component: {fileID: 1261934305}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -569,6 +571,7 @@ VFXRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 0}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -624,10 +627,43 @@ VisualEffect:
       - m_Value: 1
         m_Name: Emitter Size Factor
         m_Overridden: 1
+      - m_Value: 5.31
+        m_Name: Attraction Speed
+        m_Overridden: 1
+      - m_Value: 20
+        m_Name: Attraction Force
+        m_Overridden: 1
+      - m_Value: 0.1
+        m_Name: Stick Distance
+        m_Overridden: 1
+      - m_Value: 6.61
+        m_Name: Stick Force
+        m_Overridden: 1
+      - m_Value: 4.09
+        m_Name: LifeTime1
+        m_Overridden: 1
+      - m_Value: 0.5
+        m_Name: Lifetime2
+        m_Overridden: 1
+      - m_Value: 0.11
+        m_Name: PerlinAmplitude
+        m_Overridden: 1
+      - m_Value: 0.31
+        m_Name: PerlinSpeed
+        m_Overridden: 1
+      - m_Value: 360
+        m_Name: Rate2
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 0, y: 0, z: 0}
+        m_Name: New Transform_position
+        m_Overridden: 0
+      - m_Value: {x: -0.18, y: 0.14, z: 0}
+        m_Name: Center
+        m_Overridden: 1
     m_Vector4f:
       m_Array: []
     m_Uint:
@@ -636,6 +672,9 @@ VisualEffect:
       m_Array:
       - m_Value: 1416
         m_Name: Rate
+        m_Overridden: 1
+      - m_Value: 134
+        m_Name: Rate1
         m_Overridden: 1
     m_Matrix4x4f:
       m_Array: []
@@ -647,6 +686,37 @@ VisualEffect:
       m_Array: []
     m_Bool:
       m_Array: []
+--- !u!114 &1261934305
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261934298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07c3070554d0a8944a95ff8f018c2c9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Property:
+    m_Name: Center
+  Target: {fileID: 1261934299}
+--- !u!114 &1261934306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261934298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdafc37f32b176349b1684c4455b98e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ExecuteInEditor: 1
+  m_Bindings:
+  - {fileID: 1261934305}
+  m_VisualEffect: {fileID: 1261934304}
 --- !u!1 &1300945204
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,7 +806,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1300945204}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.587}
+  m_LocalPosition: {x: -0.23000002, y: -0.38999987, z: 0.587}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -984,7 +1054,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1602745454}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.18, y: 0.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1261934299}
@@ -1013,7 +1083,7 @@ MonoBehaviour:
   maxShaking:
     frequency: 4.26
     amplitude: 0.73
-  size: 0.459
+  size: 0.428
   breath: 0
   breathAmplitude: 0.2
   breathSpeed: 1
@@ -1087,7 +1157,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 50
+  far clip plane: 100
   field of view: 7.9
   orthographic: 0
   orthographic size: 5
@@ -1114,7 +1184,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632521741}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -18.8}
+  m_LocalPosition: {x: 0, y: 0, z: -35.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
