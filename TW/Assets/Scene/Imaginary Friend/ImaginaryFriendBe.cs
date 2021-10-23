@@ -20,6 +20,23 @@ public class ImaginaryFriendBe : MonoBehaviour
     public float breathAmplitude = 1.0f;
     public float breathSpeed = 1.0f;
 
+    [Header("Perlin Wobble")]
+    public float perlinAmplitude;
+    public float perlinSpeed;
+
+    [Header("Emitter1")]
+    public float rate1;
+    public float life1;
+    public Gradient[] colorOverLife;
+
+    [Header("Emitter2")]
+    public float rate2;
+    public float life2;
+
+    [Header("Forces")]
+    public float turbulence;
+    public float gravity;
+
     private Camera _cam;
     private Vector3 velocity = Vector3.zero;
     private GameObject _sphere = null;
@@ -94,11 +111,9 @@ public class ImaginaryFriendBe : MonoBehaviour
     {
         if(breath)
         {
-
             // progress is the wave going back and forth between 0 and 1
-            float progress = (1 + Mathf.Sin((Time.time - _breathTimer) * breathSpeed)) * 0.5f;
-            Debug.Log(progress);
-
+            Debug.Log((Time.time - _breathTimer) * breathSpeed);
+            float progress = (1 - Mathf.Cos((Time.time - _breathTimer) * breathSpeed)) * 0.5f;
 
             // Compute breath value with ease quad
             float breathValue = breathAmplitude * easeInOutQuad(progress);
@@ -125,6 +140,30 @@ public class ImaginaryFriendBe : MonoBehaviour
             return;
 
         if (_vfx.HasFloat("Emitter Size"))
-            _vfx.SetFloat("Emitter Size", size);
+            _vfx.SetFloat("Emitter Size", _internalSize + size);
+
+        if (_vfx.HasFloat("Perlin Amplitude"))
+            _vfx.SetFloat("Perlin Amplitude", perlinAmplitude);
+
+        if (_vfx.HasFloat("Perlin Speed"))
+            _vfx.SetFloat("Perlin Speed", perlinSpeed);
+
+        if (_vfx.HasFloat("Rate1"))
+            _vfx.SetFloat("Rate1", rate1);
+
+        if (_vfx.HasFloat("LifeTime1"))
+            _vfx.SetFloat("LifeTime1", life1);
+
+        if (_vfx.HasFloat("Rate2"))
+            _vfx.SetFloat("Rate2", rate2);
+
+        if (_vfx.HasFloat("LifeTime2"))
+            _vfx.SetFloat("LifeTime2", life2);
+
+        if (_vfx.HasFloat("Gravity"))
+            _vfx.SetFloat("Gravity", gravity);
+
+        if (_vfx.HasFloat("Turbulence"))
+            _vfx.SetFloat("Turbulence", turbulence);
     }
 }

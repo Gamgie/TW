@@ -8,6 +8,7 @@ public class ForceController : MonoBehaviour
 {
 
     public int forceID = 0;
+    [Tooltip("If the vfx is not a child of this script. Add here the parent of the controlled VFX")]
     public GameObject vfxObjectParent;
 
     protected VisualEffect[] m_vfxs;

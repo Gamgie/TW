@@ -12,18 +12,7 @@ public class ConformToSphereController : ForceController
     public float attractionForce = 20;
     public float stickDistance = 0.1f;
     public float stickForce = 50;
-
-    /*[System.Serializable]
-    public class VFXFloatElement
-    {
-        public String name;
-        public float value;
-    }
-
-    public List<VFXFloatElement> floatList;
-    public List<Vector3> vector3List;*/
-
-
+    public float forceAreaSize = 20;
     
 
 
@@ -52,10 +41,9 @@ public class ConformToSphereController : ForceController
 
             if (visualEffect.HasFloat("CTS Stick Force" + suffix))
                 visualEffect.SetFloat("CTS Stick Force" + suffix, stickForce);
-
-            /*VFXFloatElement fElem = floatList[0];
-            if (visualEffect.HasFloat(fElem.name))
-                visualEffect.SetFloat(fElem.name, fElem.value);*/
+            
+            if (visualEffect.HasFloat("CTS Force Area Size" + suffix))
+                visualEffect.SetFloat("CTS Force Area Size" + suffix, forceAreaSize);
         }
     }
 }
