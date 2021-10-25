@@ -37,6 +37,8 @@ public class ImaginaryFriendBe : MonoBehaviour
     public float turbulence2;
     public float heartAttractionForce;
     public float heartAttractionSpeed;
+    public float smileAttractionForce;
+    public float smileAttractionSpeed;
 
     
 
@@ -170,5 +172,11 @@ public class ImaginaryFriendBe : MonoBehaviour
 
         if (_vfx.HasFloat("Heart Attraction Speed"))
             _vfx.SetFloat("Heart Attraction Speed", heartAttractionSpeed);
+
+        if (_vfx.HasFloat("Smile Attraction Force"))
+            _vfx.SetFloat("Smile Attraction Force", smileAttractionForce);
+
+        if (_vfx.HasFloat("Smile Attraction Speed"))
+            _vfx.SetFloat("Smile Attraction Speed", smileAttractionSpeed);
     }
 }
