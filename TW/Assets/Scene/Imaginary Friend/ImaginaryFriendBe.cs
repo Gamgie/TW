@@ -28,14 +28,17 @@ public class ImaginaryFriendBe : MonoBehaviour
     public float rate1;
     public float life1;
     public Gradient[] colorOverLife;
+    public float turbulence1;
+    public float gravity;
 
     [Header("Emitter2")]
     public float rate2;
     public float life2;
+    public float turbulence2;
+    public float heartAttractionForce;
+    public float heartAttractionSpeed;
 
-    [Header("Forces")]
-    public float turbulence;
-    public float gravity;
+    
 
     private Camera _cam;
     private Vector3 velocity = Vector3.zero;
@@ -88,7 +91,6 @@ public class ImaginaryFriendBe : MonoBehaviour
 
         UpdateBrownianNoise();
         UpdateBreath();
-        UpdateSize();
         UpdateVFX();
     }
 
@@ -102,17 +104,11 @@ public class ImaginaryFriendBe : MonoBehaviour
         }
     }
 
-    void UpdateSize()
-    {
-        _sphere.transform.localScale = new Vector3(_internalSize + size, _internalSize + size, _internalSize + size);
-    }
-
     void UpdateBreath()
     {
         if(breath)
         {
             // progress is the wave going back and forth between 0 and 1
-            Debug.Log((Time.time - _breathTimer) * breathSpeed);
             float progress = (1 - Mathf.Cos((Time.time - _breathTimer) * breathSpeed)) * 0.5f;
 
             // Compute breath value with ease quad
@@ -163,7 +159,16 @@ public class ImaginaryFriendBe : MonoBehaviour
         if (_vfx.HasFloat("Gravity"))
             _vfx.SetFloat("Gravity", gravity);
 
-        if (_vfx.HasFloat("Turbulence"))
-            _vfx.SetFloat("Turbulence", turbulence);
+        if (_vfx.HasFloat("Turbulence 1"))
+            _vfx.SetFloat("Turbulence 1", turbulence1);
+
+        if (_vfx.HasFloat("Turbulence 2"))
+            _vfx.SetFloat("Turbulence 2", turbulence2);
+
+        if (_vfx.HasFloat("Heart Attraction Force"))
+            _vfx.SetFloat("Heart Attraction Force", heartAttractionForce) ;
+
+        if (_vfx.HasFloat("Heart Attraction Speed"))
+            _vfx.SetFloat("Heart Attraction Speed", heartAttractionSpeed);
     }
 }
