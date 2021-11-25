@@ -19,6 +19,7 @@ public class ImaginaryFriendBe : MonoBehaviour
     public bool breath;
     public float breathAmplitude = 1.0f;
     public float breathSpeed = 1.0f;
+    public float particleSizeFactor = 0.15f;
 
     [Header("Perlin Wobble")]
     public float perlinAmplitude;
@@ -27,6 +28,8 @@ public class ImaginaryFriendBe : MonoBehaviour
     [Header("Emitter1")]
     public float rate1;
     public float life1;
+    public int selectedColor1;
+    [GradientUsageAttribute(true)]
     public Gradient[] colorOverLife;
     public float turbulence1;
     public float gravity;
@@ -72,9 +75,9 @@ public class ImaginaryFriendBe : MonoBehaviour
             float absoluteMouseX = Mouse.current.position.ReadValue().x / Screen.width;
             float absoluteMouseY = Mouse.current.position.ReadValue().y / Screen.height;
 
-            if (absoluteMouseX >= -0.2f && absoluteMouseX <= 1.2f 
+            if (absoluteMouseX >= -0.5f && absoluteMouseX <= 1.5f 
                 &&
-                absoluteMouseY >= -0.2f && absoluteMouseY <= 1.2f)
+                absoluteMouseY >= -0.5f && absoluteMouseY <= 1.5f)
             {
                 // Check if left button is pressed
                 if (Mouse.current.leftButton.isPressed && _cam != null)
@@ -178,5 +181,11 @@ public class ImaginaryFriendBe : MonoBehaviour
 
         if (_vfx.HasFloat("Smile Attraction Speed"))
             _vfx.SetFloat("Smile Attraction Speed", smileAttractionSpeed);
+
+        if (_vfx.HasGradient("ColorOverLife"))
+            _vfx.SetGradient("ColorOverLife", colorOverLife[selectedColor1]);
+
+        if (_vfx.HasFloat("Size Factor"))
+            _vfx.SetFloat("Size Factor", particleSizeFactor);
     }
 }
