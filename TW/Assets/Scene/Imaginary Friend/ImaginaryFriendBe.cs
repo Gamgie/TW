@@ -43,7 +43,11 @@ public class ImaginaryFriendBe : MonoBehaviour
     public float smileAttractionForce;
     public float smileAttractionSpeed;
 
-    
+    [Header("Swirl")]
+    public float swirlIntensity;
+    public float swirlRadius;
+    public Vector3 swirlAxis;
+
 
     private Camera _cam;
     private Vector3 velocity = Vector3.zero;
@@ -187,5 +191,14 @@ public class ImaginaryFriendBe : MonoBehaviour
 
         if (_vfx.HasFloat("Size Factor"))
             _vfx.SetFloat("Size Factor", particleSizeFactor);
+
+        if (_vfx.HasFloat("Swirl Intensity"))
+            _vfx.SetFloat("Swirl Intensity", swirlIntensity);
+
+        if (_vfx.HasFloat("Swirl Radius"))
+            _vfx.SetFloat("Swirl Radius", swirlRadius);
+
+        if (_vfx.HasVector3("Swirl Axis"))
+            _vfx.SetVector3("Swirl Axis", swirlAxis);
     }
 }
