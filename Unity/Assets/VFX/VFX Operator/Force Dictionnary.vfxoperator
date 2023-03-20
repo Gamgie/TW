@@ -20,6 +20,8 @@ VisualEffectResource:
     m_PreWarmDeltaTime: 0.05
     m_PreWarmStepCount: 0
     m_InitialEventName: OnPlay
+    m_InstancingMode: -1
+    m_InstancingCapacity: 64
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -284,9 +286,8 @@ MonoBehaviour:
     enumValues: []
     descendantCount: 0
   m_ImportDependencies: []
-  m_GraphVersion: 6
+  m_GraphVersion: 12
   m_ResourceVersion: 1
-  m_saved: 1
   m_SubgraphDependencies:
   - {fileID: 5371698745253816930, guid: effc9a430a02d0f49bdd589ea0620e3d, type: 3}
   - {fileID: 5371698745253816930, guid: 429998260bcc5e645a673c3fb85d773f, type: 3}
@@ -862,8 +863,7 @@ MonoBehaviour:
   - {fileID: 126}
   m_OutputSlots:
   - {fileID: 127}
-  m_Subgraph: {fileID: 5371698745253816930, guid: effc9a430a02d0f49bdd589ea0620e3d,
-    type: 3}
+  m_Subgraph: {fileID: 5371698745253816930, guid: effc9a430a02d0f49bdd589ea0620e3d, type: 3}
 --- !u!114 &120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2512,8 +2512,7 @@ MonoBehaviour:
   - {fileID: 1145}
   m_OutputSlots:
   - {fileID: 391}
-  m_Subgraph: {fileID: 5371698745253816930, guid: 429998260bcc5e645a673c3fb85d773f,
-    type: 3}
+  m_Subgraph: {fileID: 5371698745253816930, guid: 429998260bcc5e645a673c3fb85d773f, type: 3}
 --- !u!114 &387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6597,8 +6596,7 @@ MonoBehaviour:
   - {fileID: 1150}
   m_OutputSlots:
   - {fileID: 512}
-  m_Subgraph: {fileID: 5371698745253816930, guid: 429998260bcc5e645a673c3fb85d773f,
-    type: 3}
+  m_Subgraph: {fileID: 5371698745253816930, guid: 429998260bcc5e645a673c3fb85d773f, type: 3}
 --- !u!114 &508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9191,8 +9189,7 @@ MonoBehaviour:
   - {fileID: 1155}
   m_OutputSlots:
   - {fileID: 589}
-  m_Subgraph: {fileID: 5371698745253816930, guid: 429998260bcc5e645a673c3fb85d773f,
-    type: 3}
+  m_Subgraph: {fileID: 5371698745253816930, guid: 429998260bcc5e645a673c3fb85d773f, type: 3}
 --- !u!114 &585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13482,8 +13479,7 @@ MonoBehaviour:
   - {fileID: 1064}
   m_OutputSlots:
   - {fileID: 1065}
-  m_Subgraph: {fileID: 5371698745253816930, guid: 0073825c2dcfe2d4a87a7f2c11be43f7,
-    type: 3}
+  m_Subgraph: {fileID: 5371698745253816930, guid: 0073825c2dcfe2d4a87a7f2c11be43f7, type: 3}
 --- !u!114 &1054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14160,8 +14156,7 @@ MonoBehaviour:
   - {fileID: 1079}
   m_OutputSlots:
   - {fileID: 1102}
-  m_Subgraph: {fileID: 5371698745253816930, guid: 68fc8f3d86a9b2c40b1bc5bca17793b7,
-    type: 3}
+  m_Subgraph: {fileID: 5371698745253816930, guid: 68fc8f3d86a9b2c40b1bc5bca17793b7, type: 3}
 --- !u!114 &1074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14976,8 +14971,7 @@ MonoBehaviour:
   - {fileID: 1140}
   m_OutputSlots:
   - {fileID: 1141}
-  m_Subgraph: {fileID: 5371698745253816930, guid: 3187dcd41ee05e542b9697af282ff2c2,
-    type: 3}
+  m_Subgraph: {fileID: 5371698745253816930, guid: 3187dcd41ee05e542b9697af282ff2c2, type: 3}
 --- !u!114 &1130
 MonoBehaviour:
   m_ObjectHideFlags: 0

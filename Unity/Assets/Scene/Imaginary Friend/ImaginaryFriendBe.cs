@@ -32,6 +32,7 @@ public class ImaginaryFriendBe : MonoBehaviour
     [GradientUsageAttribute(true)]
     public Gradient[] colorOverLife;
     public float turbulence1;
+    public float turbulence1Frequency;
     public float gravity;
 
     [Header("Emitter2")]
@@ -170,6 +171,9 @@ public class ImaginaryFriendBe : MonoBehaviour
 
         if (_vfx.HasFloat("Turbulence 1"))
             _vfx.SetFloat("Turbulence 1", turbulence1);
+
+        if (_vfx.HasFloat("Turb1 Frequency"))
+            _vfx.SetFloat("Turb1 Frequency", turbulence1Frequency);
 
         if (_vfx.HasFloat("Turbulence 2"))
             _vfx.SetFloat("Turbulence 2", turbulence2);
