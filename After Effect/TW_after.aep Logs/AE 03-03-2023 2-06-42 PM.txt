@@ -1,0 +1,3 @@
+  03/03/2023 2:06:42 PM: Starting composition “OBO_004_1”.
+
+  Output To: D:\Gamgie\Projets\TW\After Effect\_Export\27 02\OBO_004_2.mov  After Effects warning: The file 'C:\Users\Gamgie\AppData\Local\Temp\Adobe\After Effects\17.5\Disk Cache - GAMGIE-LAPTOP.noindex\08\08ec5b57-e4f6-9c1f-1ae2-fcaa3cfa3350.ADBE ICV.B0A8E2F.AAAAADgEgAc=.aecache' could not be found.

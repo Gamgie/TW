@@ -1,0 +1,8 @@
+  27/02/2023 4:22:47 PM: Starting composition “OBO_001_1”.
+
+  Output To: D:\Gamgie\Projets\TW\After Effect\_Export\27 02\OBO_001_1.mov      Render stopped by user.      Render stopped by user.      Render stopped by user.      Render stopped by user.      Render stopped by user.      Render stopped by user.      Render stopped by user.      Render stopped by user.      Render stopped by user.      Render stopped by user.  After Effects error: An output module stopped responding. The file may be damaged or corrupted. You may need to restart After Effects.  27/02/2023 4:23:05 PM: Finished composition “OBO_001_1”.
+
+
+  Total Time Elapsed: 2 Seconds
+Log closed on 27/02/2023 at 4:23:05 PM
+

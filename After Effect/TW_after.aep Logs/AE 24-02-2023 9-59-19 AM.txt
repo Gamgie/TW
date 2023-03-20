@@ -1,0 +1,36 @@
+Adobe After Effects v17.5.1 Windows 64 render log for project “TW_after.aep”
+
+Rendering started on 24/02/2023 at 9:59:19 AM
+
+  24/02/2023 9:59:20 AM: Starting composition “OBO_2302_1”.
+
+  Output To: D:\Gamgie\Projets\TW\After Effect\_Export\2402\OBO_2302_1.mov  Keylight failed.
+
+Failed to 'open' 'C:\Program Files\The Foundry\log\\AfterEffects\Keylight.log' - 'File exists'.
+
+Email to support@thefoundry.co.ukAfter Effects warning: Error with file: 'D:\Gamgie\Projets\TW\After Effect\Rushs\DSC_0877.MOV'.  24/02/2023 2:40:19 PM: Finished composition “OBO_2302_1”.
+
+
+  MISSING FOOTAGE, drawing color bars: File Not Found D:\Gamgie\Projets\TW\After Effect\Rushs\DSC_0877.MOV  24/02/2023 2:40:21 PM: Starting composition “OBO_2302_2”.
+
+  Output To: D:\Gamgie\Projets\TW\After Effect\_Export\2402\OBO_2302_2.mov  After Effects warning: Error with file: 'D:\Gamgie\Projets\TW\After Effect\Rushs\DSC_0878.MOV'.After Effects warning: Unknown Exception.  24/02/2023 2:40:21 PM: Finished composition “OBO_2302_2”.
+
+
+  24/02/2023 2:40:21 PM: Starting composition “OBO_2302_3”.
+
+  Output To: D:\Gamgie\Projets\TW\After Effect\_Export\2402\OBO_2302_3.mov  After Effects warning: Error with file: 'D:\Gamgie\Projets\TW\After Effect\Rushs\DSC_0879.MOV'.After Effects warning: Unknown Exception.  24/02/2023 2:40:22 PM: Finished composition “OBO_2302_3”.
+
+
+  24/02/2023 2:40:22 PM: Starting composition “OBO_2302_4”.
+
+  Output To: D:\Gamgie\Projets\TW\After Effect\_Export\2402\OBO_2302_4.mov  After Effects warning: Error with file: 'D:\Gamgie\Projets\TW\After Effect\Rushs\DSC_0880.MOV'.After Effects warning: Unknown Exception.  24/02/2023 2:40:22 PM: Finished composition “OBO_2302_4”.
+
+
+  24/02/2023 2:40:22 PM: Starting composition “OBO_2302_5”.
+
+  Output To: D:\Gamgie\Projets\TW\After Effect\_Export\2402\OBO_2302_5.mov  After Effects warning: Error with file: 'D:\Gamgie\Projets\TW\After Effect\Rushs\DSC_0881.MOV'.After Effects warning: Unknown Exception.  24/02/2023 2:40:22 PM: Finished composition “OBO_2302_5”.
+
+
+  Total Time Elapsed: 2 Hr, 47 Min
+Log closed on 24/02/2023 at 2:40:22 PM
+

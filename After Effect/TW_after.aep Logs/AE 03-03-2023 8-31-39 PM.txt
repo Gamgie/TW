@@ -1,0 +1,12 @@
+Adobe After Effects v17.5.1 Windows 64 render log for project “TW_after.aep”
+
+Rendering started on 03/03/2023 at 8:31:39 PM
+
+  03/03/2023 8:31:39 PM: Starting composition “OBO_005”.
+
+  Output To: D:\Gamgie\Projets\TW\After Effect\_Export\27 02\OBO_005.mov      Render stopped by user.  After Effects error: An output module stopped responding. The file may be damaged or corrupted. You may need to restart After Effects.  03/03/2023 8:32:02 PM: Finished composition “OBO_005”.
+
+
+  Total Time Elapsed: 8 Seconds
+Log closed on 03/03/2023 at 8:32:02 PM
+
