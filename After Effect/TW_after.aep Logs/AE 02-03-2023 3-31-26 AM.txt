@@ -1,12 +1,0 @@
-Adobe After Effects v17.5.1 Windows 64 render log for project “TW_after.aep”
-
-Rendering started on 02/03/2023 at 3:31:26 AM
-
-  02/03/2023 3:31:27 AM: Starting composition “OBO_003_1”.
-
-  Output To: D:\Gamgie\Projets\TW\After Effect\_Export\27 02\OBO_003_1.mov      Render stopped by user.    02/03/2023 3:32:12 AM: Finished composition “OBO_003_1”.
-
-
-  Total Time Elapsed: 42 Seconds
-Log closed on 02/03/2023 at 3:32:12 AM
-

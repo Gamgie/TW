@@ -1,8 +1,0 @@
-  27/02/2023 4:23:25 PM: Starting composition “OBO_001_1”.
-
-  Output To: D:\Gamgie\Projets\TW\After Effect\_Export\27 02\OBO_001_1_1.mov      Render stopped by user.    27/02/2023 4:23:54 PM: Finished composition “OBO_001_1”.
-
-
-  Total Time Elapsed: 27 Seconds
-Log closed on 27/02/2023 at 4:23:54 PM
-

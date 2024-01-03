@@ -1,8 +1,0 @@
-  01/03/2023 11:09:11 PM: Starting composition “OBO_003_Extract2”.
-
-  Output To: D:\Gamgie\Projets\TW\After Effect\_Export\27 02\OBO_003_Extract2_1.mov    01/03/2023 11:20:07 PM: Finished composition “OBO_003_Extract2”.
-
-
-  Total Time Elapsed: 10 Min, 56 Sec
-Log closed on 01/03/2023 at 11:20:07 PM
-

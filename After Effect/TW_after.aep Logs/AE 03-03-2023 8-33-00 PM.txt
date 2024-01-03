@@ -1,8 +1,0 @@
-  03/03/2023 8:33:00 PM: Starting composition “OBO_004_2”.
-
-  Output To: D:\Gamgie\Projets\TW\After Effect\_Export\27 02\OBO_004_2.mov    04/03/2023 12:54:07 AM: Finished composition “OBO_004_2”.
-
-
-  Total Time Elapsed: 4 Hr, 21 Min
-Log closed on 04/03/2023 at 12:54:07 AM
-
