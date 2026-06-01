@@ -2670,8 +2670,8 @@
             }
           ],
           "viewOffset": [
-            42,
-            -36
+            4,
+            -21
           ],
           "viewZoom": 1.056640625
         },
@@ -2997,8 +2997,8 @@
             }
           ],
           "viewOffset": [
-            -291,
-            76
+            -373,
+            77
           ],
           "viewZoom": 0.765625
         }
@@ -6746,27 +6746,131 @@
   "layout": {
     "mainLayout": {
       "type": 1,
-      "width": 1904,
-      "height": 973,
+      "width": 1920,
+      "height": 989,
       "direction": 2,
       "shifters": [
         {
-          "type": 0,
-          "width": 1904,
-          "height": 973,
-          "currentContent": "Dashboard",
-          "tabs": [
+          "type": 1,
+          "width": 1920,
+          "height": 989,
+          "direction": 2,
+          "shifters": [
             {
-              "name": "Dashboard"
+              "type": 1,
+              "width": 1920,
+              "height": 711,
+              "direction": 1,
+              "shifters": [
+                {
+                  "type": 1,
+                  "width": 307,
+                  "height": 711,
+                  "direction": 2,
+                  "shifters": [
+                    {
+                      "type": 0,
+                      "width": 307,
+                      "height": 363,
+                      "currentContent": "Modules",
+                      "tabs": [
+                        {
+                          "name": "Modules"
+                        }
+                      ]
+                    },
+                    {
+                      "type": 0,
+                      "width": 307,
+                      "height": 342,
+                      "currentContent": "Custom Variables",
+                      "tabs": [
+                        {
+                          "name": "Custom Variables"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 1052,
+                  "height": 711,
+                  "currentContent": "State Machine",
+                  "tabs": [
+                    {
+                      "name": "State Machine"
+                    },
+                    {
+                      "name": "Dashboard"
+                    },
+                    {
+                      "name": "Module Router"
+                    },
+                    {
+                      "name": "Morpher"
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 549,
+                  "height": 711,
+                  "currentContent": "Inspector",
+                  "tabs": [
+                    {
+                      "name": "Inspector"
+                    }
+                  ]
+                }
+              ]
             },
             {
-              "name": "Modules"
-            },
-            {
-              "name": "Inspector"
-            },
-            {
-              "name": "State Machine"
+              "type": 1,
+              "width": 1920,
+              "height": 271,
+              "direction": 1,
+              "shifters": [
+                {
+                  "type": 0,
+                  "width": 178,
+                  "height": 271,
+                  "currentContent": "Sequences",
+                  "tabs": [
+                    {
+                      "name": "Sequences"
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 1256,
+                  "height": 271,
+                  "currentContent": "Sequence Editor",
+                  "tabs": [
+                    {
+                      "name": "Sequence Editor"
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 474,
+                  "height": 271,
+                  "currentContent": "Logger",
+                  "tabs": [
+                    {
+                      "name": "Help"
+                    },
+                    {
+                      "name": "Logger"
+                    },
+                    {
+                      "name": "Warnings"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -6857,6 +6961,7 @@
                       "controlAddress": "/cameraPosition"
                     }
                   ],
+                  "editorIsCollapsed": true,
                   "owned": true,
                   "niceName": "ImaginaryFriendMngr"
                 }
@@ -6865,6 +6970,7 @@
               "niceName": "Imaginary Friend Mngr"
             },
             "Imaginary_Friend": {
+              "editorIsCollapsed": true,
               "containers": {
                 "ImaginaryFriendBe": {
                   "parameters": [
@@ -6873,7 +6979,7 @@
                       "controlAddress": "/shaking"
                     },
                     {
-                      "value": 0.09540067613124847,
+                      "value": 0.0,
                       "controlAddress": "/size"
                     },
                     {
@@ -6885,7 +6991,7 @@
                       "controlAddress": "/breathSpeed"
                     },
                     {
-                      "value": 0.0504409447312355,
+                      "value": 0.05750393867492676,
                       "controlAddress": "/particleSizeFactor"
                     },
                     {
@@ -7041,6 +7147,7 @@
                           "controlAddress": "/areaSize"
                         }
                       ],
+                      "editorIsCollapsed": true,
                       "owned": true,
                       "niceName": "Light"
                     },
@@ -17265,7 +17372,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 58,
+              "value": 81,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17283,7 +17390,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 47,
+              "value": 53,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17337,7 +17444,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 21,
+              "value": 24,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17355,7 +17462,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 18,
+              "value": 21,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17373,7 +17480,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 62,
+              "value": 18,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17409,7 +17516,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 64,
+              "value": 55,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17445,7 +17552,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 41,
+              "value": 64,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17481,7 +17588,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 64,
+              "value": 84,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17517,7 +17624,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 94,
+              "value": 64,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17715,7 +17822,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 52,
+              "value": 24,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17733,7 +17840,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 11,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17751,7 +17858,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 13,
+              "value": 21,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17769,7 +17876,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 33,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17787,7 +17894,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 51,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17805,7 +17912,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 47,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17823,7 +17930,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 48,
+              "value": 0,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17913,7 +18020,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 100,
+              "value": 0,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17931,7 +18038,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 127,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -18088,7 +18195,7 @@
                   "controlAddress": "/lastChannel"
                 },
                 {
-                  "value": 107,
+                  "value": 91,
                   "hexMode": false,
                   "controlAddress": "/lastPitch"
                 },
@@ -19098,12 +19205,12 @@
                   "controlAddress": "/lastChannel"
                 },
                 {
-                  "value": 63,
+                  "value": 37,
                   "hexMode": false,
                   "controlAddress": "/lastPitch"
                 },
                 {
-                  "value": 6,
+                  "value": 15,
                   "hexMode": false,
                   "controlAddress": "/lastVelocity"
                 }
@@ -19282,11 +19389,11 @@
                   "controlAddress": "/button3"
                 },
                 {
-                  "value": true,
+                  "value": false,
                   "controlAddress": "/button9"
                 },
                 {
-                  "value": false,
+                  "value": true,
                   "controlAddress": "/button10"
                 },
                 {
@@ -19424,7 +19531,7 @@
                 "GIF": {
                   "parameters": [
                     {
-                      "value": 0.259055107831955,
+                      "value": 0.6661417484283447,
                       "controlMode": 2,
                       "reference": {
                         "value": "/customVariables/gif/variables/scale/scale",
@@ -19433,7 +19540,7 @@
                       "controlAddress": "/Scale"
                     },
                     {
-                      "value": 0.469212532043457,
+                      "value": 0.0003149509429931641,
                       "controlMode": 2,
                       "reference": {
                         "value": "/customVariables/gif/variables/tx/tx",
@@ -19442,7 +19549,7 @@
                       "controlAddress": "/Tx"
                     },
                     {
-                      "value": -0.6717716455459595,
+                      "value": -0.2028740048408508,
                       "controlMode": 2,
                       "reference": {
                         "value": "/customVariables/gif/variables/ty/ty",
@@ -19586,7 +19693,7 @@
                 "Custom": {
                   "parameters": [
                     {
-                      "value": 0.1574802994728088,
+                      "value": 0.0,
                       "controlAddress": "/Opacity"
                     }
                   ],
@@ -20255,7 +20362,7 @@
         "params": {
           "parameters": [
             {
-              "value": 0.0,
+              "value": 1.0,
               "controlAddress": "/outVolume"
             }
           ],
@@ -20270,6 +20377,22 @@
                 {
                   "value": true,
                   "controlAddress": "/enabled"
+                },
+                {
+                  "value": true,
+                  "controlAddress": "/monitorOutLeft"
+                },
+                {
+                  "value": true,
+                  "controlAddress": "/monitorOutRight"
+                },
+                {
+                  "value": true,
+                  "controlAddress": "/monitorOutLeftSurround"
+                },
+                {
+                  "value": true,
+                  "controlAddress": "/monitorOutRightSurround"
                 }
               ]
             },
@@ -20304,7 +20427,7 @@
           ],
           "viewZoom": 1.0
         },
-        "audioSettings": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n<DEVICESETUP deviceType=\"Windows Audio\" audioOutputDeviceName=\"OUT 1-4 (2- BEHRINGER UMC 204HD 192k)\"\r\n             audioInputDeviceName=\"\" audioDeviceRate=\"44100.0\" audioDeviceBufferSize=\"480\"/>\r\n",
+        "audioSettings": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n<DEVICESETUP deviceType=\"Windows Audio\" audioOutputDeviceName=\"Headphones (Realtek(R) Audio)\"\r\n             audioInputDeviceName=\"\" audioDeviceRate=\"48000.0\" audioDeviceOutChans=\"1111\"/>\r\n",
         "analyzer": {
           "parameters": [
             {
@@ -22423,7 +22546,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.09540067613124847,
+                  "value": 0.0,
                   "minValue": 0,
                   "maxValue": 1,
                   "default": 0,
@@ -22444,7 +22567,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.0504409447312355,
+                  "value": 0.05750393867492676,
                   "minValue": 0.001000000047497451,
                   "maxValue": 0.300000011920929,
                   "default": 0,
@@ -22487,7 +22610,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.259055107831955,
+                  "value": 0.6661417484283447,
                   "minValue": 0,
                   "maxValue": 5,
                   "default": 0.9143810272216797,
@@ -22508,7 +22631,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.469212532043457,
+                  "value": 0.0003149509429931641,
                   "minValue": -1,
                   "maxValue": 1,
                   "default": 0,
@@ -22529,7 +22652,7 @@
             {
               "parameters": [
                 {
-                  "value": -0.6717716455459595,
+                  "value": -0.2028740048408508,
                   "minValue": -1,
                   "maxValue": 1,
                   "default": 0,
@@ -24837,7 +24960,7 @@
             "controlAddress": "/viewUISize"
           },
           {
-            "value": true,
+            "value": false,
             "controlAddress": "/active"
           }
         ],
@@ -25831,7 +25954,7 @@
                           "controlAddress": "/length"
                         },
                         {
-                          "value": 0.3779527544975281,
+                          "value": 0.0,
                           "controlAddress": "/position"
                         },
                         {
@@ -27555,7 +27678,7 @@
             "controlAddress": "/viewUISize"
           },
           {
-            "value": true,
+            "value": false,
             "controlAddress": "/active"
           }
         ],
@@ -29963,7 +30086,7 @@
             "controlAddress": "/viewUISize"
           },
           {
-            "value": true,
+            "value": false,
             "controlAddress": "/active"
           }
         ],
@@ -30452,7 +30575,7 @@
             "controlAddress": "/viewUISize"
           },
           {
-            "value": false,
+            "value": true,
             "controlAddress": "/active"
           }
         ],
@@ -30616,8 +30739,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "",
-                        "ghostValue": "/modules/midi/values/_1_CC32",
+                        "value": "/modules/midiLaunchControlXL/values/_1_CC83",
                         "controlAddress": "/inputValue"
                       }
                     ],
@@ -30740,8 +30862,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "",
-                        "ghostValue": "/modules/midi/values/_1_CC33",
+                        "value": "/modules/midiLaunchControlXL/values/_1_CC19",
                         "controlAddress": "/inputValue"
                       }
                     ],
@@ -31183,6 +31304,12 @@
               }
             },
             {
+              "parameters": [
+                {
+                  "value": true,
+                  "controlAddress": "/enabled"
+                }
+              ],
               "niceName": "Niquer A2",
               "editorIsCollapsed": true,
               "type": "Action",
@@ -31305,6 +31432,12 @@
               }
             },
             {
+              "parameters": [
+                {
+                  "value": false,
+                  "controlAddress": "/enabled"
+                }
+              ],
               "niceName": "Clip GIF A3",
               "editorIsCollapsed": true,
               "type": "Action",
@@ -31812,7 +31945,7 @@
             "controlAddress": "/viewUISize"
           },
           {
-            "value": true,
+            "value": false,
             "controlAddress": "/active"
           }
         ],
@@ -32226,7 +32359,7 @@
             "controlAddress": "/viewUISize"
           },
           {
-            "value": true,
+            "value": false,
             "controlAddress": "/active"
           }
         ],
@@ -55345,7 +55478,7 @@
             "controlAddress": "/viewUISize"
           },
           {
-            "value": true,
+            "value": false,
             "controlAddress": "/active"
           }
         ],
@@ -55875,7 +56008,7 @@
             "controlAddress": "/viewUISize"
           },
           {
-            "value": true,
+            "value": false,
             "controlAddress": "/active"
           }
         ],
@@ -56326,10 +56459,10 @@
       }
     ],
     "viewOffset": [
-      822,
-      88
+      -181,
+      62
     ],
-    "viewZoom": 0.53125,
+    "viewZoom": 1.0,
     "transitions": {
       "hideInEditor": true,
       "viewOffset": [
@@ -56341,10 +56474,10 @@
     "comments": {
       "hideInEditor": true,
       "viewOffset": [
-        822,
-        88
+        -181,
+        62
       ],
-      "viewZoom": 0.53125
+      "viewZoom": 1.0
     }
   },
   "sequences": {
@@ -56497,7 +56630,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "Sound/R\u00e9minisciences - Anne charlotte.wav",
+                        "value": "../../Medias/Sound/R\u00e9minisciences - Anne charlotte.wav",
                         "controlAddress": "/filePath"
                       }
                     ],
@@ -56596,7 +56729,7 @@
                         "controlAddress": "/length"
                       },
                       {
-                        "value": "Sound/66952__benboncan__boxing-bell-1.wav",
+                        "value": "../../Medias/Sound/66952__benboncan__boxing-bell-1.wav",
                         "controlAddress": "/filePath"
                       },
                       {
@@ -56699,7 +56832,7 @@
                         "controlAddress": "/length"
                       },
                       {
-                        "value": "Sound/Humhum.mp3",
+                        "value": "../../Medias/Sound/Humhum.mp3",
                         "controlAddress": "/filePath"
                       },
                       {
@@ -56806,7 +56939,7 @@
                         "controlAddress": "/length"
                       },
                       {
-                        "value": "Sound/zapsplat_vehicles_car_horn_single_long_beep_2017_toyota_corolla_79495.mp3",
+                        "value": "../../Medias/Sound/zapsplat_vehicles_car_horn_single_long_beep_2017_toyota_corolla_79495.mp3",
                         "controlAddress": "/filePath"
                       },
                       {
@@ -56909,7 +57042,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "D:/Gamgie/Projets/TW/Medias/Sound/Imaginary Friend/DOORWood_Porte d appartement ouverture 1 (ID 1702)_LS.wav",
+                        "value": "../../Medias/Sound/Imaginary Friend/DOORWood_Porte d appartement ouverture 1 (ID 1702)_LS.wav",
                         "controlAddress": "/filePath"
                       }
                     ],
@@ -57012,7 +57145,7 @@
                         "controlAddress": "/length"
                       },
                       {
-                        "value": "D:/Gamgie/Projets/TW/Medias/Sound/Imaginary Friend/DOORWood_Porte d appartement fermeture 1 (ID 1704)_LS.wav",
+                        "value": "../../Medias/Sound/Imaginary Friend/DOORWood_Porte d appartement fermeture 1 (ID 1704)_LS.wav",
                         "controlAddress": "/filePath"
                       },
                       {
@@ -57297,7 +57430,8 @@
             0
           ],
           "viewZoom": 1.0
-        }
+        },
+        "editing": true
       },
       {
         "parameters": [
@@ -58816,7 +58950,7 @@
       {
         "parameters": [
           {
-            "value": 6.6,
+            "value": 6.66,
             "controlAddress": "/totalTime"
           },
           {
@@ -58871,7 +59005,7 @@
                         "controlAddress": "/length"
                       },
                       {
-                        "value": "D:/Gamgie/Projets/TW/Medias/Sound/Vortex/rire 0.wav",
+                        "value": "../../Medias/Sound/Vortex/rire 0.wav",
                         "controlAddress": "/filePath"
                       }
                     ],
@@ -58917,11 +59051,11 @@
                 "automation": {
                   "parameters": [
                     {
-                      "value": 6.599999904632568,
+                      "value": 6.659999847412109,
                       "controlAddress": "/length"
                     },
                     {
-                      "value": 6.599999904632568,
+                      "value": 0.0,
                       "controlAddress": "/position"
                     },
                     {
@@ -60495,7 +60629,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "../..//Medias/Sound/Vortex/ben voyons.wav",
+                        "value": "../../Medias/Sound/Vortex/ben voyons.wav",
                         "controlAddress": "/filePath"
                       }
                     ],
@@ -61169,7 +61303,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "D:/Gamgie/Projets/TW/Medias/Sound/Vortex/effet de mode.wav",
+                        "value": "../../Medias/Sound/Vortex/effet de mode.wav",
                         "controlAddress": "/filePath"
                       },
                       {
@@ -63151,7 +63285,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "D:/Gamgie/Projets/TW/Medias/Sound/Vortex/chochotte 0.wav",
+                        "value": "../../Medias/Sound/Vortex/chochotte 0.wav",
                         "controlAddress": "/filePath"
                       },
                       {
@@ -63879,7 +64013,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "D:/Gamgie/Projets/TW/Medias/Sound/Vortex/Chut 1_1.wav",
+                        "value": "../../Medias/Sound/Vortex/Chut 1_1.wav",
                         "controlAddress": "/filePath"
                       }
                     ],
@@ -64599,7 +64733,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "D:/Gamgie/Projets/TW/Medias/Sound/Vortex/Chut 1_2.wav",
+                        "value": "../../Medias/Sound/Vortex/Chut 1_2.wav",
                         "controlAddress": "/filePath"
                       }
                     ],
@@ -65323,7 +65457,7 @@
                         "controlAddress": "/length"
                       },
                       {
-                        "value": "D:/Gamgie/Projets/TW/Medias/Sound/Vortex/Chut 1_3.wav",
+                        "value": "../../Medias/Sound/Vortex/Chut 1_3.wav",
                         "controlAddress": "/filePath"
                       }
                     ],
@@ -66001,7 +66135,7 @@
                         "controlAddress": "/length"
                       },
                       {
-                        "value": "D:/Gamgie/Projets/TW/Medias/Sound/Vortex/Chut 2_1.wav",
+                        "value": "../../Medias/Sound/Vortex/Chut 2_1.wav",
                         "controlAddress": "/filePath"
                       }
                     ],
@@ -66603,7 +66737,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "D:/Gamgie/Projets/TW/Medias/Sound/Vortex/Chut 2_2.wav",
+                        "value": "../../Medias/Sound/Vortex/Chut 2_2.wav",
                         "controlAddress": "/filePath"
                       }
                     ],
@@ -67216,7 +67350,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "D:/Gamgie/Projets/TW/Medias/Sound/Vortex/Chut 2_3.wav",
+                        "value": "../../Medias/Sound/Vortex/Chut 2_3.wav",
                         "controlAddress": "/filePath"
                       }
                     ],
@@ -67783,7 +67917,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "D:/Gamgie/Projets/TW/Medias/Sound/Vortex/Chut 3_1.wav",
+                        "value": "../../Medias/Sound/Vortex/Chut 3_1.wav",
                         "controlAddress": "/filePath"
                       }
                     ],
@@ -68506,7 +68640,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "D:/Gamgie/Projets/TW/Medias/Sound/Vortex/Chut 3_2.wav",
+                        "value": "../../Medias/Sound/Vortex/Chut 3_2.wav",
                         "controlAddress": "/filePath"
                       }
                     ],
@@ -69616,7 +69750,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "D:/Gamgie/Projets/TW/Medias/Sound/Vortex/Chut 3_3.wav",
+                        "value": "../../Medias/Sound/Vortex/Chut 3_3.wav",
                         "controlAddress": "/filePath"
                       }
                     ],
@@ -69664,7 +69798,7 @@
       {
         "parameters": [
           {
-            "value": 57.92,
+            "value": 86.40000000000001,
             "controlAddress": "/totalTime"
           },
           {
@@ -69730,7 +69864,7 @@
                         "controlAddress": "/length"
                       },
                       {
-                        "value": "D:/Gamgie/Projets/TW/Medias/Sound/Vortex/hotesse de l'air.mp3",
+                        "value": "../../Medias/Sound/Vortex/hotesse de l'air.mp3",
                         "controlAddress": "/filePath"
                       },
                       {
