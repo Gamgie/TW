@@ -6746,14 +6746,14 @@
   "layout": {
     "mainLayout": {
       "type": 1,
-      "width": 859,
-      "height": 980,
+      "width": 1904,
+      "height": 973,
       "direction": 2,
       "shifters": [
         {
           "type": 0,
-          "width": 859,
-          "height": 980,
+          "width": 1904,
+          "height": 973,
           "currentContent": "Dashboard",
           "tabs": [
             {
@@ -19103,7 +19103,7 @@
                   "controlAddress": "/lastPitch"
                 },
                 {
-                  "value": 12,
+                  "value": 6,
                   "hexMode": false,
                   "controlAddress": "/lastVelocity"
                 }
