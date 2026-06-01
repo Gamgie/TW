@@ -2323,14 +2323,359 @@
               "type": "DashboardTriggerItem",
               "ghostAddress": "/states/ifMusic/processors/conductor/trigger",
               "controllable": "/states/ifMusic/processors/conductor/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    230.0,
+                    380.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    50.0,
+                    50.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/states/ifEffect/processors/pasBeau/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Pas beau",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": 12,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 35",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/states/ifEffect/processors/pasBeau/trigger",
+              "controllable": "/states/ifEffect/processors/pasBeau/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    170.0,
+                    380.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    50.0,
+                    50.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/states/ifEffect/processors/gettingBigger/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "gros",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": 12,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 39",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/states/ifEffect/processors/gettingBigger/trigger",
+              "controllable": "/states/ifEffect/processors/gettingBigger/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    290.0,
+                    380.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    50.0,
+                    50.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/states/ifEffect/processors/porcEpic/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Porc Epic",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": 12,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 40",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/states/ifEffect/processors/porcEpic/trigger",
+              "controllable": "/states/ifEffect/processors/porcEpic/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    350.0,
+                    380.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    50.0,
+                    50.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/states/ifEffect/processors/porcEpicColere/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Porc Epic Colere",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": 9,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 41",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/states/ifEffect/processors/porcEpicColere/trigger",
+              "controllable": "/states/ifEffect/processors/porcEpicColere/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    170.0,
+                    320.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    50.0,
+                    50.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/states/ifEffect/processors/toucher/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Toucher",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": 12,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 42",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/states/ifEffect/processors/toucher/trigger",
+              "controllable": "/states/ifEffect/processors/toucher/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    230.0,
+                    320.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    50.0,
+                    50.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/states/ifEffect/processors/bisous/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Bisous",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": 12,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 43",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/states/ifEffect/processors/bisous/trigger",
+              "controllable": "/states/ifEffect/processors/bisous/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    290.0,
+                    320.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    50.0,
+                    50.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/states/ifEffect/processors/glitch/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Glitch",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": 12,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 44",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/states/ifEffect/processors/glitch/trigger",
+              "controllable": "/states/ifEffect/processors/glitch/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    350.0,
+                    320.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    50.0,
+                    50.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/states/ifEffect/processors/pumpSize/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Pump Size",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": 12,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 45",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/states/ifEffect/processors/pumpSize/trigger",
+              "controllable": "/states/ifEffect/processors/pumpSize/trigger"
             }
           ],
           "viewOffset": [
-            -57,
-            -34
+            42,
+            -36
           ],
-          "viewZoom": 1.09765625
-        }
+          "viewZoom": 1.056640625
+        },
+        "editing": true
       },
       {
         "niceName": "GIF",
@@ -2656,8 +3001,7 @@
             76
           ],
           "viewZoom": 0.765625
-        },
-        "editing": true
+        }
       },
       {
         "niceName": "OBO",
@@ -6402,14 +6746,14 @@
   "layout": {
     "mainLayout": {
       "type": 1,
-      "width": 1920,
-      "height": 989,
+      "width": 859,
+      "height": 980,
       "direction": 2,
       "shifters": [
         {
           "type": 0,
-          "width": 1920,
-          "height": 989,
+          "width": 859,
+          "height": 980,
           "currentContent": "Dashboard",
           "tabs": [
             {
@@ -6513,7 +6857,6 @@
                       "controlAddress": "/cameraPosition"
                     }
                   ],
-                  "editorIsCollapsed": true,
                   "owned": true,
                   "niceName": "ImaginaryFriendMngr"
                 }
@@ -6522,7 +6865,6 @@
               "niceName": "Imaginary Friend Mngr"
             },
             "Imaginary_Friend": {
-              "editorIsCollapsed": true,
               "containers": {
                 "ImaginaryFriendBe": {
                   "parameters": [
@@ -6531,19 +6873,19 @@
                       "controlAddress": "/shaking"
                     },
                     {
-                      "value": 0.134325847029686,
+                      "value": 0.09540067613124847,
                       "controlAddress": "/size"
                     },
                     {
-                      "value": 0.04052358678467882,
+                      "value": 0.04052358643068905,
                       "controlAddress": "/breathAmplitude"
                     },
                     {
-                      "value": 0.37502428695196,
+                      "value": 1.070341632477504,
                       "controlAddress": "/breathSpeed"
                     },
                     {
-                      "value": 0.09999999403953552,
+                      "value": 0.0504409447312355,
                       "controlAddress": "/particleSizeFactor"
                     },
                     {
@@ -6555,48 +6897,48 @@
                       "controlAddress": "/perlinSpeed"
                     },
                     {
-                      "value": 0.0,
+                      "value": 46.00000046053901,
                       "controlAddress": "/rate1"
                     },
                     {
-                      "value": 0.0,
+                      "value": 10.86649693029004,
                       "controlAddress": "/life1"
                     },
                     {
-                      "value": 0,
+                      "value": 3,
                       "hexMode": false,
                       "controlAddress": "/selectedColor1"
                     },
                     {
-                      "value": 0.0,
+                      "value": 0.2147655918855511,
                       "controlAddress": "/turbulence1"
                     },
                     {
-                      "value": 2.544344425201416,
+                      "value": 6.954248008016489,
                       "controlAddress": "/turbulence1Frequency"
                     },
                     {
-                      "value": 0.0,
+                      "value": -2.025602403309108,
                       "controlAddress": "/gravity"
                     },
                     {
-                      "value": 499.9999875517028,
+                      "value": 499.99999688589,
                       "controlAddress": "/rate2"
                     },
                     {
-                      "value": 0.1191367667789855,
+                      "value": 0.4237942463612475,
                       "controlAddress": "/life2"
                     },
                     {
-                      "value": 0.0,
+                      "value": 0.002939330145514944,
                       "controlAddress": "/turbulence2"
                     },
                     {
-                      "value": 6.506614089012146,
+                      "value": 0.0,
                       "controlAddress": "/heartAttractionForce"
                     },
                     {
-                      "value": 6.506614089012146,
+                      "value": 0.0,
                       "controlAddress": "/heartAttractionSpeed"
                     },
                     {
@@ -6611,19 +6953,19 @@
                 "ConformToSphereController": {
                   "parameters": [
                     {
-                      "value": -1.821851448508141,
+                      "value": 0.0,
                       "controlAddress": "/attractionSpeed"
                     },
                     {
-                      "value": -2.602645635604858,
+                      "value": 0.0,
                       "controlAddress": "/attractionForce"
                     },
                     {
-                      "value": 1.37006769724394,
+                      "value": 2.225997947090751,
                       "controlAddress": "/stickForce"
                     },
                     {
-                      "value": 0.3493042645636989,
+                      "value": 0.5675271210269223,
                       "controlAddress": "/forceAreaSize"
                     }
                   ],
@@ -6699,7 +7041,6 @@
                           "controlAddress": "/areaSize"
                         }
                       ],
-                      "editorIsCollapsed": true,
                       "owned": true,
                       "niceName": "Light"
                     },
@@ -16449,6 +16790,10 @@
           {
             "value": true,
             "controlAddress": "/logIncoming"
+          },
+          {
+            "value": false,
+            "controlAddress": "/logOutgoing"
           }
         ],
         "niceName": "MIDI Launch Control XL",
@@ -16464,14 +16809,17 @@
           "parameters": [
             {
               "value": [
-                "",
-                ""
+                "\\\\?\\usb#vid_1235&pid_0061#5&2a83cfe&0&1#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\global",
+                "\\\\?\\usb#vid_1235&pid_0061#5&2a83cfe&0&1#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\global"
               ],
+              "inputName": "Launch Control XL",
+              "outputName": "Launch Control XL",
               "controlAddress": "/devices"
             }
           ],
           "containers": {
             "pass_through": {
+              "editorIsCollapsed": true
             }
           }
         },
@@ -16917,7 +17265,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 63,
+              "value": 58,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -16935,7 +17283,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 12,
+              "value": 47,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -16953,7 +17301,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 35,
+              "value": 58,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -16971,7 +17319,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 14,
+              "value": 64,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -16989,7 +17337,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 56,
+              "value": 21,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17007,7 +17355,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 18,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17025,7 +17373,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 62,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17061,7 +17409,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 53,
+              "value": 64,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17097,7 +17445,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 120,
+              "value": 41,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17115,7 +17463,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 123,
+              "value": 0,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17133,7 +17481,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 115,
+              "value": 64,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17151,7 +17499,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 95,
+              "value": 0,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17211,6 +17559,132 @@
               "default": 0,
               "hexMode": false,
               "channel": 1,
+              "pitchOrNumber": 41,
+              "MIDIType": 2,
+              "controlAddress": "/_1_CC41",
+              "type": "MIDI Value",
+              "niceName": "[1] CC41",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC41",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "default": 0,
+              "hexMode": false,
+              "channel": 1,
+              "pitchOrNumber": 42,
+              "MIDIType": 2,
+              "controlAddress": "/_1_CC42",
+              "type": "MIDI Value",
+              "niceName": "[1] CC42",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC42",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 127,
+              "minValue": 0,
+              "maxValue": 127,
+              "default": 0,
+              "hexMode": false,
+              "channel": 1,
+              "pitchOrNumber": 43,
+              "MIDIType": 2,
+              "controlAddress": "/_1_CC43",
+              "type": "MIDI Value",
+              "niceName": "[1] CC43",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC43",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "default": 0,
+              "hexMode": false,
+              "channel": 1,
+              "pitchOrNumber": 44,
+              "MIDIType": 2,
+              "controlAddress": "/_1_CC44",
+              "type": "MIDI Value",
+              "niceName": "[1] CC44",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC44",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "default": 0,
+              "hexMode": false,
+              "channel": 1,
+              "pitchOrNumber": 46,
+              "MIDIType": 2,
+              "controlAddress": "/_1_CC46",
+              "type": "MIDI Value",
+              "niceName": "[1] CC46",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC46",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 127,
+              "minValue": 0,
+              "maxValue": 127,
+              "default": 0,
+              "hexMode": false,
+              "channel": 1,
+              "pitchOrNumber": 47,
+              "MIDIType": 2,
+              "controlAddress": "/_1_CC47",
+              "type": "MIDI Value",
+              "niceName": "[1] CC47",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC47",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "default": 0,
+              "hexMode": false,
+              "channel": 1,
+              "pitchOrNumber": 48,
+              "MIDIType": 2,
+              "controlAddress": "/_1_CC48",
+              "type": "MIDI Value",
+              "niceName": "[1] CC48",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC48",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 64,
+              "minValue": 0,
+              "maxValue": 127,
+              "default": 0,
+              "hexMode": false,
+              "channel": 1,
               "pitchOrNumber": 49,
               "MIDIType": 2,
               "controlAddress": "/_1_CC49",
@@ -17223,7 +17697,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 60,
+              "value": 34,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17277,7 +17751,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 13,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17313,7 +17787,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 21,
+              "value": 0,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17349,7 +17823,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 48,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17439,7 +17913,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 100,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17499,6 +17973,42 @@
               "default": 0,
               "hexMode": false,
               "channel": 1,
+              "pitchOrNumber": 104,
+              "MIDIType": 2,
+              "controlAddress": "/_1_CC104",
+              "type": "MIDI Value",
+              "niceName": "[1] CC104",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC104",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "default": 0,
+              "hexMode": false,
+              "channel": 1,
+              "pitchOrNumber": 105,
+              "MIDIType": 2,
+              "controlAddress": "/_1_CC105",
+              "type": "MIDI Value",
+              "niceName": "[1] CC105",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 1 : CC105",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "default": 0,
+              "hexMode": false,
+              "channel": 1,
               "pitchOrNumber": 106,
               "MIDIType": 2,
               "controlAddress": "/_1_CC106",
@@ -17527,13 +18037,58 @@
               "description": "Channel 1 : CC107",
               "hideInEditor": false,
               "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "default": 0,
+              "hexMode": false,
+              "channel": 9,
+              "pitchOrNumber": 41,
+              "MIDIType": 0,
+              "controlAddress": "/_9_F1",
+              "type": "MIDI Value",
+              "niceName": "[9] F1",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 9 : F1",
+              "hideInEditor": false,
+              "feedbackOnly": false
+            },
+            {
+              "value": 0,
+              "minValue": 0,
+              "maxValue": 127,
+              "default": 0,
+              "hexMode": false,
+              "channel": 9,
+              "pitchOrNumber": 73,
+              "MIDIType": 0,
+              "controlAddress": "/_9_C#4",
+              "type": "MIDI Value",
+              "niceName": "[9] C#4",
+              "customizable": false,
+              "removable": true,
+              "description": "Channel 9 : C#4",
+              "hideInEditor": false,
+              "feedbackOnly": false
             }
           ],
           "containers": {
             "infos": {
               "parameters": [
                 {
-                  "value": 41,
+                  "value": false,
+                  "controlAddress": "/oneNoteOn"
+                },
+                {
+                  "value": 1,
+                  "hexMode": false,
+                  "controlAddress": "/lastChannel"
+                },
+                {
+                  "value": 107,
                   "hexMode": false,
                   "controlAddress": "/lastPitch"
                 },
@@ -17552,6 +18107,12 @@
         }
       },
       {
+        "parameters": [
+          {
+            "value": false,
+            "controlAddress": "/logIncoming"
+          }
+        ],
         "niceName": "MPD218",
         "type": "MIDI",
         "scripts": {
@@ -17565,8 +18126,8 @@
           "parameters": [
             {
               "value": [
-                "\\\\?\\usb#vid_09e8&pid_0034&mi_00#8&5206b0f&1&0000#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\global",
-                "\\\\?\\usb#vid_09e8&pid_0034&mi_00#8&5206b0f&1&0000#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\global"
+                "\\\\?\\usb#vid_09e8&pid_0034&mi_00#6&5206b0f&1&0000#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\global",
+                "\\\\?\\usb#vid_09e8&pid_0034&mi_00#6&5206b0f&1&0000#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\global"
               ],
               "inputName": "MPD218",
               "outputName": "MPD218",
@@ -18537,12 +19098,12 @@
                   "controlAddress": "/lastChannel"
                 },
                 {
-                  "value": 54,
+                  "value": 63,
                   "hexMode": false,
                   "controlAddress": "/lastPitch"
                 },
                 {
-                  "value": 28,
+                  "value": 12,
                   "hexMode": false,
                   "controlAddress": "/lastVelocity"
                 }
@@ -19025,7 +19586,7 @@
                 "Custom": {
                   "parameters": [
                     {
-                      "value": 0.0,
+                      "value": 0.1574802994728088,
                       "controlAddress": "/Opacity"
                     }
                   ],
@@ -19694,7 +20255,7 @@
         "params": {
           "parameters": [
             {
-              "value": 1.0,
+              "value": 0.0,
               "controlAddress": "/outVolume"
             }
           ],
@@ -19902,286 +20463,6 @@
           ],
           "viewZoom": 1.0
         }
-      },
-      {
-        "niceName": "MIDI",
-        "type": "MIDI",
-        "scripts": {
-          "viewOffset": [
-            0,
-            0
-          ],
-          "viewZoom": 1.0
-        },
-        "params": {
-          "parameters": [
-            {
-              "value": [
-                "\\\\?\\usb#vid_2580&pid_0007&mi_00#6&3f78023&2&0000#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\global",
-                ""
-              ],
-              "inputName": "Midi Fighter Twister",
-              "controlAddress": "/devices"
-            }
-          ],
-          "containers": {
-            "pass_through": {
-            }
-          }
-        },
-        "templates": {
-          "viewOffset": [
-            0,
-            0
-          ],
-          "viewZoom": 1.0
-        },
-        "values": {
-          "parameters": [
-            {
-              "value": 57,
-              "minValue": 0,
-              "maxValue": 127,
-              "default": 0,
-              "hexMode": false,
-              "channel": 1,
-              "pitchOrNumber": 32,
-              "MIDIType": 2,
-              "controlAddress": "/_1_CC32",
-              "type": "MIDI Value",
-              "niceName": "[1] CC32",
-              "customizable": false,
-              "removable": true,
-              "description": "Channel 1 : CC32",
-              "hideInEditor": false,
-              "feedbackOnly": false
-            },
-            {
-              "value": 8,
-              "minValue": 0,
-              "maxValue": 127,
-              "default": 0,
-              "hexMode": false,
-              "channel": 1,
-              "pitchOrNumber": 33,
-              "MIDIType": 2,
-              "controlAddress": "/_1_CC33",
-              "type": "MIDI Value",
-              "niceName": "[1] CC33",
-              "customizable": false,
-              "removable": true,
-              "description": "Channel 1 : CC33",
-              "hideInEditor": false,
-              "feedbackOnly": false
-            },
-            {
-              "value": 16,
-              "minValue": 0,
-              "maxValue": 127,
-              "default": 0,
-              "hexMode": false,
-              "channel": 1,
-              "pitchOrNumber": 34,
-              "MIDIType": 2,
-              "controlAddress": "/_1_CC34",
-              "type": "MIDI Value",
-              "niceName": "[1] CC34",
-              "customizable": false,
-              "removable": true,
-              "description": "Channel 1 : CC34",
-              "hideInEditor": false,
-              "feedbackOnly": false
-            },
-            {
-              "value": 102,
-              "minValue": 0,
-              "maxValue": 127,
-              "default": 0,
-              "hexMode": false,
-              "channel": 1,
-              "pitchOrNumber": 35,
-              "MIDIType": 2,
-              "controlAddress": "/_1_CC35",
-              "type": "MIDI Value",
-              "niceName": "[1] CC35",
-              "customizable": false,
-              "removable": true,
-              "description": "Channel 1 : CC35",
-              "hideInEditor": false,
-              "feedbackOnly": false
-            },
-            {
-              "value": 60,
-              "minValue": 0,
-              "maxValue": 127,
-              "default": 0,
-              "hexMode": false,
-              "channel": 1,
-              "pitchOrNumber": 36,
-              "MIDIType": 2,
-              "controlAddress": "/_1_CC36",
-              "type": "MIDI Value",
-              "niceName": "[1] CC36",
-              "customizable": false,
-              "removable": true,
-              "description": "Channel 1 : CC36",
-              "hideInEditor": false,
-              "feedbackOnly": false
-            },
-            {
-              "value": 0,
-              "minValue": 0,
-              "maxValue": 127,
-              "default": 0,
-              "hexMode": false,
-              "channel": 1,
-              "pitchOrNumber": 40,
-              "MIDIType": 2,
-              "controlAddress": "/_1_CC40",
-              "type": "MIDI Value",
-              "niceName": "[1] CC40",
-              "customizable": false,
-              "removable": true,
-              "description": "Channel 1 : CC40",
-              "hideInEditor": false,
-              "feedbackOnly": false
-            },
-            {
-              "value": 5,
-              "minValue": 0,
-              "maxValue": 127,
-              "default": 0,
-              "hexMode": false,
-              "channel": 1,
-              "pitchOrNumber": 44,
-              "MIDIType": 2,
-              "controlAddress": "/_1_CC44",
-              "type": "MIDI Value",
-              "niceName": "[1] CC44",
-              "customizable": false,
-              "removable": true,
-              "description": "Channel 1 : CC44",
-              "hideInEditor": false,
-              "feedbackOnly": false
-            },
-            {
-              "value": 63,
-              "minValue": 0,
-              "maxValue": 127,
-              "default": 0,
-              "hexMode": false,
-              "channel": 1,
-              "pitchOrNumber": 48,
-              "MIDIType": 2,
-              "controlAddress": "/_1_CC48",
-              "type": "MIDI Value",
-              "niceName": "[1] CC48",
-              "customizable": false,
-              "removable": true,
-              "description": "Channel 1 : CC48",
-              "hideInEditor": false,
-              "feedbackOnly": false
-            },
-            {
-              "value": 65,
-              "minValue": 0,
-              "maxValue": 127,
-              "default": 0,
-              "hexMode": false,
-              "channel": 1,
-              "pitchOrNumber": 56,
-              "MIDIType": 2,
-              "controlAddress": "/_1_CC56",
-              "type": "MIDI Value",
-              "niceName": "[1] CC56",
-              "customizable": false,
-              "removable": true,
-              "description": "Channel 1 : CC56",
-              "hideInEditor": false,
-              "feedbackOnly": false
-            },
-            {
-              "value": 65,
-              "minValue": 0,
-              "maxValue": 127,
-              "default": 0,
-              "hexMode": false,
-              "channel": 1,
-              "pitchOrNumber": 60,
-              "MIDIType": 2,
-              "controlAddress": "/_1_CC60",
-              "type": "MIDI Value",
-              "niceName": "[1] CC60",
-              "customizable": false,
-              "removable": true,
-              "description": "Channel 1 : CC60",
-              "hideInEditor": false,
-              "feedbackOnly": false
-            },
-            {
-              "value": 0,
-              "minValue": 0,
-              "maxValue": 127,
-              "default": 0,
-              "hexMode": false,
-              "channel": 2,
-              "pitchOrNumber": 33,
-              "MIDIType": 2,
-              "controlAddress": "/_2_CC33",
-              "type": "MIDI Value",
-              "niceName": "[2] CC33",
-              "customizable": false,
-              "removable": true,
-              "description": "Channel 2 : CC33",
-              "hideInEditor": false,
-              "feedbackOnly": false
-            },
-            {
-              "value": 127,
-              "minValue": 0,
-              "maxValue": 127,
-              "default": 0,
-              "hexMode": false,
-              "channel": 4,
-              "pitchOrNumber": 2,
-              "MIDIType": 2,
-              "controlAddress": "/_4_CC2",
-              "type": "MIDI Value",
-              "niceName": "[4] CC2",
-              "customizable": false,
-              "removable": true,
-              "description": "Channel 4 : CC2",
-              "hideInEditor": false,
-              "feedbackOnly": false
-            },
-            {
-              "value": 0,
-              "minValue": 0,
-              "maxValue": 127,
-              "default": 0,
-              "hexMode": false,
-              "channel": 4,
-              "pitchOrNumber": 3,
-              "MIDIType": 2,
-              "controlAddress": "/_4_CC3",
-              "type": "MIDI Value",
-              "niceName": "[4] CC3",
-              "customizable": false,
-              "removable": true,
-              "description": "Channel 4 : CC3",
-              "hideInEditor": false,
-              "feedbackOnly": false
-            }
-          ],
-          "containers": {
-            "infos": {
-            },
-            "tempo": {
-            },
-            "mtc": {
-            }
-          }
-        }
       }
     ],
     "viewOffset": [
@@ -20229,7 +20510,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.04052358678467882,
+                  "value": 0.04052358643068905,
                   "minValue": 0,
                   "maxValue": 1,
                   "default": 0,
@@ -20250,7 +20531,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.37502428695196,
+                  "value": 1.070341632477504,
                   "minValue": 0,
                   "maxValue": 10,
                   "default": 0,
@@ -20292,7 +20573,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.0,
+                  "value": 46.00000046053901,
                   "minValue": 0,
                   "maxValue": 200,
                   "default": 0,
@@ -20313,7 +20594,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.0,
+                  "value": 10.86649693029004,
                   "minValue": 0,
                   "maxValue": 20,
                   "default": 0,
@@ -20334,7 +20615,7 @@
             {
               "parameters": [
                 {
-                  "value": 499.9999875517028,
+                  "value": 499.99999688589,
                   "minValue": 0,
                   "maxValue": 500,
                   "default": 0,
@@ -20355,7 +20636,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.1191367667789855,
+                  "value": 0.4237942463612475,
                   "minValue": 0,
                   "maxValue": 10,
                   "default": 0,
@@ -20376,7 +20657,7 @@
             {
               "parameters": [
                 {
-                  "value": -1.821851448508141,
+                  "value": 0.0,
                   "minValue": -20,
                   "maxValue": 20,
                   "default": 0,
@@ -20397,7 +20678,7 @@
             {
               "parameters": [
                 {
-                  "value": -2.602645635604858,
+                  "value": 0.0,
                   "minValue": -20,
                   "maxValue": 20,
                   "default": 0,
@@ -20439,7 +20720,7 @@
             {
               "parameters": [
                 {
-                  "value": 1.37006769724394,
+                  "value": 2.225997947090751,
                   "minValue": 0,
                   "maxValue": 50,
                   "default": 0,
@@ -20460,7 +20741,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.3493042645636989,
+                  "value": 0.5675271210269223,
                   "minValue": 0,
                   "maxValue": 20,
                   "default": 0,
@@ -20481,7 +20762,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.0,
+                  "value": 0.2147655918855511,
                   "minValue": 0,
                   "maxValue": 10,
                   "default": 0,
@@ -20502,7 +20783,7 @@
             {
               "parameters": [
                 {
-                  "value": 2.544344425201416,
+                  "value": 6.954248008016489,
                   "minValue": 0,
                   "maxValue": 10,
                   "default": 0,
@@ -20523,7 +20804,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.0,
+                  "value": 0.002939330145514944,
                   "minValue": 0,
                   "maxValue": 10,
                   "default": 0,
@@ -20544,7 +20825,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.0,
+                  "value": -2.025602403309108,
                   "minValue": -10,
                   "maxValue": 10,
                   "default": 0,
@@ -20565,7 +20846,7 @@
             {
               "parameters": [
                 {
-                  "value": 6.506614089012146,
+                  "value": 0.0,
                   "minValue": -10,
                   "maxValue": 10,
                   "default": 0,
@@ -20586,7 +20867,7 @@
             {
               "parameters": [
                 {
-                  "value": 6.506614089012146,
+                  "value": 0.0,
                   "minValue": -10,
                   "maxValue": 10,
                   "default": 0,
@@ -20658,7 +20939,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.4729685187339783,
+                  "value": 0.001000000047497451,
                   "alwaysNotify": true,
                   "controlAddress": "/weight"
                 },
@@ -20673,7 +20954,6 @@
                 }
               ],
               "niceName": "Idle",
-              "editorIsCollapsed": true,
               "type": "MorphTarget",
               "values": {
                 "containers": {
@@ -20905,7 +21185,7 @@
             {
               "parameters": [
                 {
-                  "value": 1.0,
+                  "value": 0.0,
                   "controlAddress": "/weight"
                 },
                 {
@@ -21147,7 +21427,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.06392913311719894,
+                  "value": 0.001000000047497451,
                   "controlAddress": "/weight"
                 },
                 {
@@ -21633,6 +21913,7 @@
                 }
               ],
               "niceName": "Drawing",
+              "editorIsCollapsed": true,
               "type": "MorphTarget",
               "values": {
                 "containers": {
@@ -21852,6 +22133,10 @@
             {
               "parameters": [
                 {
+                  "value": 0.787401556968689,
+                  "controlAddress": "/weight"
+                },
+                {
                   "value": [
                     0.2235294133424759,
                     0,
@@ -21862,6 +22147,7 @@
                 }
               ],
               "niceName": "Shower",
+              "editorIsCollapsed": true,
               "type": "MorphTarget",
               "values": {
                 "containers": {
@@ -22137,7 +22423,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.134325847029686,
+                  "value": 0.09540067613124847,
                   "minValue": 0,
                   "maxValue": 1,
                   "default": 0,
@@ -22158,7 +22444,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.09999999403953552,
+                  "value": 0.0504409447312355,
                   "minValue": 0.001000000047497451,
                   "maxValue": 0.300000011920929,
                   "default": 0,
@@ -24545,8 +24831,8 @@
           },
           {
             "value": [
-              441.8421630859375,
-              728.0
+              437.3529052734375,
+              752.4705810546875
             ],
             "controlAddress": "/viewUISize"
           },
@@ -25057,7 +25343,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "/modules/midi/values/_1_CC33",
+                        "value": "/modules/midiLaunchControlXL/values/_1_CC79",
                         "controlAddress": "/inputValue"
                       }
                     ],
@@ -25461,7 +25747,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "/modules/midi/values/_1_CC32",
+                        "value": "/modules/midiLaunchControlXL/values/_1_CC77",
                         "controlAddress": "/inputValue"
                       }
                     ],
@@ -25545,7 +25831,7 @@
                           "controlAddress": "/length"
                         },
                         {
-                          "value": 0.4488188922405243,
+                          "value": 0.3779527544975281,
                           "controlAddress": "/position"
                         },
                         {
@@ -30046,6 +30332,12 @@
               }
             },
             {
+              "parameters": [
+                {
+                  "value": false,
+                  "controlAddress": "/enabled"
+                }
+              ],
               "niceName": "Red",
               "editorIsCollapsed": true,
               "type": "Action",
@@ -30324,7 +30616,8 @@
                   {
                     "parameters": [
                       {
-                        "value": "/modules/midi/values/_1_CC32",
+                        "value": "",
+                        "ghostValue": "/modules/midi/values/_1_CC32",
                         "controlAddress": "/inputValue"
                       }
                     ],
@@ -30447,7 +30740,8 @@
                   {
                     "parameters": [
                       {
-                        "value": "/modules/midi/values/_1_CC33",
+                        "value": "",
+                        "ghostValue": "/modules/midi/values/_1_CC33",
                         "controlAddress": "/inputValue"
                       }
                     ],
@@ -31505,15 +31799,15 @@
         "parameters": [
           {
             "value": [
-              -1849.5107421875,
-              -288.1021728515625
+              -1840.0,
+              -320.0
             ],
             "controlAddress": "/viewUIPosition"
           },
           {
             "value": [
-              313.0,
-              255.0
+              300.0,
+              280.0
             ],
             "controlAddress": "/viewUISize"
           },
@@ -31919,15 +32213,15 @@
         "parameters": [
           {
             "value": [
-              -1520.326538085938,
-              -369.6326599121094
+              -1520.0,
+              -320.0
             ],
             "controlAddress": "/viewUIPosition"
           },
           {
             "value": [
-              341.0,
-              353.0
+              340.0,
+              280.0
             ],
             "controlAddress": "/viewUISize"
           },
@@ -55068,7 +55362,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "/modules/midiLaunchControlXL/values/_1_F1",
+                        "value": "/modules/midiLaunchControlXL/values/_9_F1",
                         "controlAddress": "/inputValue"
                       },
                       {
@@ -55575,8 +55869,8 @@
           },
           {
             "value": [
-              379.0,
-              305.0
+              366.0,
+              330.0
             ],
             "controlAddress": "/viewUISize"
           },
@@ -55594,6 +55888,11 @@
                 {
                   "value": 24.0,
                   "controlAddress": "/listSize"
+                },
+                {
+                  "value": 1,
+                  "hexMode": false,
+                  "controlAddress": "/nextCue"
                 }
               ],
               "niceName": "Conductor",
@@ -56027,10 +56326,10 @@
       }
     ],
     "viewOffset": [
-      1300,
-      -109
+      822,
+      88
     ],
-    "viewZoom": 0.765625,
+    "viewZoom": 0.53125,
     "transitions": {
       "hideInEditor": true,
       "viewOffset": [
@@ -56042,10 +56341,10 @@
     "comments": {
       "hideInEditor": true,
       "viewOffset": [
-        1300,
-        -109
+        822,
+        88
       ],
-      "viewZoom": 0.765625
+      "viewZoom": 0.53125
     }
   },
   "sequences": {
