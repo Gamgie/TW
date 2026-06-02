@@ -2670,12 +2670,11 @@
             }
           ],
           "viewOffset": [
-            4,
-            -21
+            -120,
+            -23
           ],
           "viewZoom": 1.056640625
-        },
-        "editing": true
+        }
       },
       {
         "niceName": "GIF",
@@ -2743,15 +2742,15 @@
               "parameters": [
                 {
                   "value": [
-                    -40.0,
-                    160.0
+                    260.0,
+                    -420.0
                   ],
                   "controlAddress": "/viewUIPosition"
                 },
                 {
                   "value": [
-                    100.0,
-                    100.0
+                    140.0,
+                    140.0
                   ],
                   "controlAddress": "/viewUISize"
                 },
@@ -2760,12 +2759,12 @@
                   "controlAddress": "/target"
                 },
                 {
-                  "value": "Show Clipboard",
+                  "value": "Show Clipboard A14",
                   "controlAddress": "/customText",
                   "enabled": true
                 },
                 {
-                  "value": 12,
+                  "value": 19,
                   "hexMode": false,
                   "controlAddress": "/textSize",
                   "enabled": true
@@ -2786,8 +2785,8 @@
               "parameters": [
                 {
                   "value": [
-                    180.0,
-                    -120.0
+                    1120.0,
+                    20.0
                   ],
                   "controlAddress": "/viewUIPosition"
                 },
@@ -2994,14 +2993,285 @@
               "type": "DashboardParameterItem",
               "ghostAddress": "/customVariables/gif/variables/scale/scale",
               "controllable": "/customVariables/gif/variables/scale/scale"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    100.0,
+                    60.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    140.0,
+                    140.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/states/gif/processors/boxingBellA1/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Boxing Bell A1",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": 32,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 8",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/states/gif/processors/boxingBellA1/trigger",
+              "controllable": "/states/gif/processors/boxingBellA1/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    260.0,
+                    60.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    140.0,
+                    140.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/states/gif/processors/niquerA2/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Niquer A2",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 9",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/states/gif/processors/niquerA2/trigger",
+              "controllable": "/states/gif/processors/niquerA2/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    580.0,
+                    60.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    140.0,
+                    140.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/states/gif/processors/humHumA4/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Hum hum A4",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": 27,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 10",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/states/gif/processors/humHumA4/trigger",
+              "controllable": "/states/gif/processors/humHumA4/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    100.0,
+                    -100.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    140.0,
+                    140.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/states/gif/processors/honkA5/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Honk A5",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 11",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/states/gif/processors/honkA5/trigger",
+              "controllable": "/states/gif/processors/honkA5/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    160.0,
+                    240.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    454.0,
+                    63.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "Clip P.A.N.I.Q.U.E.R en Layer 1 clip 2\n apparition et clip 3 pour disparition",
+                  "controlAddress": "/text"
+                },
+                {
+                  "value": 27.50000190734863,
+                  "customUI": 3,
+                  "controlAddress": "/size"
+                }
+              ],
+              "niceName": "Comment",
+              "hideInEditor": true,
+              "type": "DashboardCommentItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    580.0,
+                    -420.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    140.0,
+                    140.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/states/gif/processors/opacityToggleA16/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Opacity A16",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": 29,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 12",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/states/gif/processors/opacityToggleA16/trigger",
+              "controllable": "/states/gif/processors/opacityToggleA16/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    100.0,
+                    -420.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    140.0,
+                    140.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/states/gif/processors/bonnetA13/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Bonnet A13",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 13",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/states/gif/processors/bonnetA13/trigger",
+              "controllable": "/states/gif/processors/bonnetA13/trigger"
             }
           ],
           "viewOffset": [
-            -373,
-            77
+            -836,
+            87
           ],
-          "viewZoom": 0.765625
-        }
+          "viewZoom": 1.0
+        },
+        "editing": true
       },
       {
         "niceName": "OBO",
@@ -3665,7 +3935,8 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/tdOSCQuery/values/Glimpse/Custom/Intensity",
+                  "value": "",
+                  "ghostValue": "/modules/tdOSCQuery/values/Glimpse/Custom/Intensity",
                   "controlAddress": "/target"
                 },
                 {
@@ -3696,8 +3967,7 @@
               "niceName": "Item",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/tdOSCQuery/values/Glimpse/Custom/Intensity",
-              "controllable": "/modules/tdOSCQuery/values/Glimpse/Custom/Intensity"
+              "ghostAddress": "/modules/tdOSCQuery/values/Glimpse/Custom/Intensity"
             },
             {
               "parameters": [
@@ -3716,7 +3986,8 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/tdOSCQuery/values/Glimpse/Custom/Color",
+                  "value": "",
+                  "ghostValue": "/modules/tdOSCQuery/values/Glimpse/Custom/Color",
                   "controlAddress": "/target"
                 },
                 {
@@ -3728,8 +3999,7 @@
               "niceName": "Item 1",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/tdOSCQuery/values/Glimpse/Custom/Color",
-              "controllable": "/modules/tdOSCQuery/values/Glimpse/Custom/Color"
+              "ghostAddress": "/modules/tdOSCQuery/values/Glimpse/Custom/Color"
             },
             {
               "parameters": [
@@ -3748,7 +4018,8 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/tdOSCQuery/values/Glimpse/Custom/Extraglimpseintensity",
+                  "value": "",
+                  "ghostValue": "/modules/tdOSCQuery/values/Glimpse/Custom/Extraglimpseintensity",
                   "controlAddress": "/target"
                 },
                 {
@@ -3785,8 +4056,7 @@
               "niceName": "Item 2",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/tdOSCQuery/values/Glimpse/Custom/Extraglimpseintensity",
-              "controllable": "/modules/tdOSCQuery/values/Glimpse/Custom/Extraglimpseintensity"
+              "ghostAddress": "/modules/tdOSCQuery/values/Glimpse/Custom/Extraglimpseintensity"
             },
             {
               "parameters": [
@@ -3805,7 +4075,8 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/tdOSCQuery/values/Touch/Custom/Opacity2",
+                  "value": "",
+                  "ghostValue": "/modules/tdOSCQuery/values/Touch/Custom/Opacity2",
                   "controlAddress": "/target"
                 },
                 {
@@ -3837,8 +4108,7 @@
               "niceName": "Item 4",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/tdOSCQuery/values/Touch/Custom/Opacity2",
-              "controllable": "/modules/tdOSCQuery/values/Touch/Custom/Opacity2"
+              "ghostAddress": "/modules/tdOSCQuery/values/Touch/Custom/Opacity2"
             },
             {
               "parameters": [
@@ -3857,7 +4127,8 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/tdOSCQuery/values/Touch/Custom/Opacity3",
+                  "value": "",
+                  "ghostValue": "/modules/tdOSCQuery/values/Touch/Custom/Opacity3",
                   "controlAddress": "/target"
                 },
                 {
@@ -3889,8 +4160,7 @@
               "niceName": "Item 5",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/tdOSCQuery/values/Touch/Custom/Opacity3",
-              "controllable": "/modules/tdOSCQuery/values/Touch/Custom/Opacity3"
+              "ghostAddress": "/modules/tdOSCQuery/values/Touch/Custom/Opacity3"
             },
             {
               "parameters": [
@@ -3909,7 +4179,8 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/tdOSCQuery/values/Breath/Custom/Intensity",
+                  "value": "",
+                  "ghostValue": "/modules/tdOSCQuery/values/Breath/Custom/Intensity",
                   "controlAddress": "/target"
                 },
                 {
@@ -3940,8 +4211,7 @@
               "niceName": "Item 7",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/tdOSCQuery/values/Breath/Custom/Intensity",
-              "controllable": "/modules/tdOSCQuery/values/Breath/Custom/Intensity"
+              "ghostAddress": "/modules/tdOSCQuery/values/Breath/Custom/Intensity"
             },
             {
               "parameters": [
@@ -3960,7 +4230,8 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/tdOSCQuery/values/Breath/Custom/Color",
+                  "value": "",
+                  "ghostValue": "/modules/tdOSCQuery/values/Breath/Custom/Color",
                   "controlAddress": "/target"
                 },
                 {
@@ -3972,8 +4243,7 @@
               "niceName": "Item 9",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/tdOSCQuery/values/Breath/Custom/Color",
-              "controllable": "/modules/tdOSCQuery/values/Breath/Custom/Color"
+              "ghostAddress": "/modules/tdOSCQuery/values/Breath/Custom/Color"
             },
             {
               "parameters": [
@@ -4322,7 +4592,8 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/tdOSCQuery/values/Touch/Custom/Intensitybckgnd",
+                  "value": "",
+                  "ghostValue": "/modules/tdOSCQuery/values/Touch/Custom/Intensitybckgnd",
                   "controlAddress": "/target"
                 },
                 {
@@ -4353,8 +4624,7 @@
               "niceName": "Item 6",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/tdOSCQuery/values/Touch/Custom/Intensitybckgnd",
-              "controllable": "/modules/tdOSCQuery/values/Touch/Custom/Intensitybckgnd"
+              "ghostAddress": "/modules/tdOSCQuery/values/Touch/Custom/Intensitybckgnd"
             },
             {
               "parameters": [
@@ -4373,7 +4643,8 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/tdOSCQuery/values/Touch/Custom/Opacity1",
+                  "value": "",
+                  "ghostValue": "/modules/tdOSCQuery/values/Touch/Custom/Opacity1",
                   "controlAddress": "/target"
                 },
                 {
@@ -4405,8 +4676,7 @@
               "niceName": "Item 8",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/tdOSCQuery/values/Touch/Custom/Opacity1",
-              "controllable": "/modules/tdOSCQuery/values/Touch/Custom/Opacity1"
+              "ghostAddress": "/modules/tdOSCQuery/values/Touch/Custom/Opacity1"
             },
             {
               "parameters": [
@@ -4425,7 +4695,8 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/tdOSCQuery/values/Breath/Custom/Speed",
+                  "value": "",
+                  "ghostValue": "/modules/tdOSCQuery/values/Breath/Custom/Speed",
                   "controlAddress": "/target"
                 },
                 {
@@ -4451,8 +4722,7 @@
               "niceName": "Item 3",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/tdOSCQuery/values/Breath/Custom/Speed",
-              "controllable": "/modules/tdOSCQuery/values/Breath/Custom/Speed"
+              "ghostAddress": "/modules/tdOSCQuery/values/Breath/Custom/Speed"
             },
             {
               "parameters": [
@@ -4471,7 +4741,8 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/tdOSCQuery/values/Glimpse/Custom/Freeze",
+                  "value": "",
+                  "ghostValue": "/modules/tdOSCQuery/values/Glimpse/Custom/Freeze",
                   "controlAddress": "/target"
                 },
                 {
@@ -4497,8 +4768,7 @@
               "niceName": "Item 10",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/tdOSCQuery/values/Glimpse/Custom/Freeze",
-              "controllable": "/modules/tdOSCQuery/values/Glimpse/Custom/Freeze"
+              "ghostAddress": "/modules/tdOSCQuery/values/Glimpse/Custom/Freeze"
             },
             {
               "parameters": [
@@ -4517,7 +4787,8 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/tdOSCQuery/values/Touch/Custom/Speedbackground",
+                  "value": "",
+                  "ghostValue": "/modules/tdOSCQuery/values/Touch/Custom/Speedbackground",
                   "controlAddress": "/target"
                 },
                 {
@@ -4544,8 +4815,7 @@
               "niceName": "Item 11",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/tdOSCQuery/values/Touch/Custom/Speedbackground",
-              "controllable": "/modules/tdOSCQuery/values/Touch/Custom/Speedbackground"
+              "ghostAddress": "/modules/tdOSCQuery/values/Touch/Custom/Speedbackground"
             },
             {
               "parameters": [
@@ -4564,7 +4834,8 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/tdOSCQuery/values/Warning/Custom/Intensity",
+                  "value": "",
+                  "ghostValue": "/modules/tdOSCQuery/values/Warning/Custom/Intensity",
                   "controlAddress": "/target"
                 },
                 {
@@ -4585,8 +4856,7 @@
               "niceName": "Item 12",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/tdOSCQuery/values/Warning/Custom/Intensity",
-              "controllable": "/modules/tdOSCQuery/values/Warning/Custom/Intensity"
+              "ghostAddress": "/modules/tdOSCQuery/values/Warning/Custom/Intensity"
             },
             {
               "parameters": [
@@ -4605,7 +4875,8 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/tdOSCQuery/values/Warning/Custom/Warningpush",
+                  "value": "",
+                  "ghostValue": "/modules/tdOSCQuery/values/Warning/Custom/Warningpush",
                   "controlAddress": "/target"
                 },
                 {
@@ -4637,8 +4908,7 @@
               "niceName": "Item 13",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/tdOSCQuery/values/Warning/Custom/Warningpush",
-              "controllable": "/modules/tdOSCQuery/values/Warning/Custom/Warningpush"
+              "ghostAddress": "/modules/tdOSCQuery/values/Warning/Custom/Warningpush"
             },
             {
               "parameters": [
@@ -6064,7 +6334,8 @@
                   "controlAddress": "/viewUISize"
                 },
                 {
-                  "value": "/modules/tdOSCQuery/values/Warning/Custom/Color",
+                  "value": "",
+                  "ghostValue": "/modules/tdOSCQuery/values/Warning/Custom/Color",
                   "controlAddress": "/target"
                 },
                 {
@@ -6076,8 +6347,7 @@
               "niceName": "Item 47",
               "hideInEditor": true,
               "type": "DashboardParameterItem",
-              "ghostAddress": "/modules/tdOSCQuery/values/Warning/Custom/Color",
-              "controllable": "/modules/tdOSCQuery/values/Warning/Custom/Color"
+              "ghostAddress": "/modules/tdOSCQuery/values/Warning/Custom/Color"
             },
             {
               "parameters": [
@@ -6709,8 +6979,8 @@
             }
           ],
           "viewOffset": [
-            1,
-            -21
+            464,
+            79
           ],
           "viewZoom": 1.037500023841858
         }
@@ -6751,126 +7021,22 @@
       "direction": 2,
       "shifters": [
         {
-          "type": 1,
+          "type": 0,
           "width": 1920,
           "height": 989,
-          "direction": 2,
-          "shifters": [
+          "currentContent": "Dashboard",
+          "tabs": [
             {
-              "type": 1,
-              "width": 1920,
-              "height": 711,
-              "direction": 1,
-              "shifters": [
-                {
-                  "type": 1,
-                  "width": 307,
-                  "height": 711,
-                  "direction": 2,
-                  "shifters": [
-                    {
-                      "type": 0,
-                      "width": 307,
-                      "height": 363,
-                      "currentContent": "Modules",
-                      "tabs": [
-                        {
-                          "name": "Modules"
-                        }
-                      ]
-                    },
-                    {
-                      "type": 0,
-                      "width": 307,
-                      "height": 342,
-                      "currentContent": "Custom Variables",
-                      "tabs": [
-                        {
-                          "name": "Custom Variables"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": 0,
-                  "width": 1052,
-                  "height": 711,
-                  "currentContent": "State Machine",
-                  "tabs": [
-                    {
-                      "name": "State Machine"
-                    },
-                    {
-                      "name": "Dashboard"
-                    },
-                    {
-                      "name": "Module Router"
-                    },
-                    {
-                      "name": "Morpher"
-                    }
-                  ]
-                },
-                {
-                  "type": 0,
-                  "width": 549,
-                  "height": 711,
-                  "currentContent": "Inspector",
-                  "tabs": [
-                    {
-                      "name": "Inspector"
-                    }
-                  ]
-                }
-              ]
+              "name": "Dashboard"
             },
             {
-              "type": 1,
-              "width": 1920,
-              "height": 271,
-              "direction": 1,
-              "shifters": [
-                {
-                  "type": 0,
-                  "width": 178,
-                  "height": 271,
-                  "currentContent": "Sequences",
-                  "tabs": [
-                    {
-                      "name": "Sequences"
-                    }
-                  ]
-                },
-                {
-                  "type": 0,
-                  "width": 1256,
-                  "height": 271,
-                  "currentContent": "Sequence Editor",
-                  "tabs": [
-                    {
-                      "name": "Sequence Editor"
-                    }
-                  ]
-                },
-                {
-                  "type": 0,
-                  "width": 474,
-                  "height": 271,
-                  "currentContent": "Logger",
-                  "tabs": [
-                    {
-                      "name": "Help"
-                    },
-                    {
-                      "name": "Logger"
-                    },
-                    {
-                      "name": "Warnings"
-                    }
-                  ]
-                }
-              ]
+              "name": "Modules"
+            },
+            {
+              "name": "Inspector"
+            },
+            {
+              "name": "State Machine"
             }
           ]
         }
@@ -6901,7 +7067,7 @@
               "controlAddress": "/serverName"
             },
             {
-              "value": true,
+              "value": false,
               "controlAddress": "/isConnected"
             }
           ],
@@ -6948,7 +7114,6 @@
               "niceName": "Static Lighting Sky"
             },
             "Imaginary_Friend_Mngr": {
-              "editorIsCollapsed": true,
               "containers": {
                 "ImaginaryFriendMngr": {
                   "parameters": [
@@ -6956,12 +7121,11 @@
                       "value": [
                         0.0,
                         0.0,
-                        -15.0
+                        -3.500000953674316
                       ],
                       "controlAddress": "/cameraPosition"
                     }
                   ],
-                  "editorIsCollapsed": true,
                   "owned": true,
                   "niceName": "ImaginaryFriendMngr"
                 }
@@ -6970,7 +7134,6 @@
               "niceName": "Imaginary Friend Mngr"
             },
             "Imaginary_Friend": {
-              "editorIsCollapsed": true,
               "containers": {
                 "ImaginaryFriendBe": {
                   "parameters": [
@@ -6979,19 +7142,19 @@
                       "controlAddress": "/shaking"
                     },
                     {
-                      "value": 0.0,
+                      "value": 0.111964151263237,
                       "controlAddress": "/size"
                     },
                     {
-                      "value": 0.04052358643068905,
+                      "value": 0.04052358939510435,
                       "controlAddress": "/breathAmplitude"
                     },
                     {
-                      "value": 1.070341632477504,
+                      "value": 1.066181795429914,
                       "controlAddress": "/breathSpeed"
                     },
                     {
-                      "value": 0.05750393867492676,
+                      "value": 0.1752204895019531,
                       "controlAddress": "/particleSizeFactor"
                     },
                     {
@@ -7003,40 +7166,40 @@
                       "controlAddress": "/perlinSpeed"
                     },
                     {
-                      "value": 46.00000046053901,
+                      "value": 60.92541768626492,
                       "controlAddress": "/rate1"
                     },
                     {
-                      "value": 10.86649693029004,
+                      "value": 7.860419862754521,
                       "controlAddress": "/life1"
                     },
                     {
-                      "value": 3,
+                      "value": 2,
                       "hexMode": false,
                       "controlAddress": "/selectedColor1"
                     },
                     {
-                      "value": 0.2147655918855511,
+                      "value": 0.001285522312795412,
                       "controlAddress": "/turbulence1"
                     },
                     {
-                      "value": 6.954248008016489,
+                      "value": 2.362283437858701,
                       "controlAddress": "/turbulence1Frequency"
                     },
                     {
-                      "value": -2.025602403309108,
+                      "value": 0.000629120499354485,
                       "controlAddress": "/gravity"
                     },
                     {
-                      "value": 499.99999688589,
+                      "value": 500.0,
                       "controlAddress": "/rate2"
                     },
                     {
-                      "value": 0.4237942463612475,
+                      "value": 0.690000840818774,
                       "controlAddress": "/life2"
                     },
                     {
-                      "value": 0.002939330145514944,
+                      "value": 0.002315680479659162,
                       "controlAddress": "/turbulence2"
                     },
                     {
@@ -7052,7 +7215,6 @@
                       "controlAddress": "/smileAttractionForce"
                     }
                   ],
-                  "editorIsCollapsed": true,
                   "owned": true,
                   "niceName": "ImaginaryFriendBe"
                 },
@@ -7067,11 +7229,11 @@
                       "controlAddress": "/attractionForce"
                     },
                     {
-                      "value": 2.225997947090751,
+                      "value": 0.004443110141387763,
                       "controlAddress": "/stickForce"
                     },
                     {
-                      "value": 0.5675271210269223,
+                      "value": 0.001132788783674704,
                       "controlAddress": "/forceAreaSize"
                     }
                   ],
@@ -7080,7 +7242,6 @@
                   "niceName": "ConformToSphereController"
                 },
                 "Sphere": {
-                  "editorIsCollapsed": true,
                   "containers": {
                     "BrownianMotion": {
                       "editorIsCollapsed": true,
@@ -7128,7 +7289,6 @@
                   "niceName": "Sphere"
                 },
                 "Point_Light": {
-                  "editorIsCollapsed": true,
                   "containers": {
                     "Light": {
                       "parameters": [
@@ -9874,7 +10034,7 @@
             }
           }
         },
-        "hasListenExtension": true
+        "hasListenExtension": false
       },
       {
         "niceName": "Oxipital",
@@ -17408,7 +17568,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 58,
+              "value": 0,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17426,7 +17586,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 64,
+              "value": 0,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17444,7 +17604,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 24,
+              "value": 74,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17462,7 +17622,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 21,
+              "value": 0,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17480,7 +17640,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 18,
+              "value": 46,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17588,7 +17748,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 84,
+              "value": 73,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17606,7 +17766,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 16,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17624,7 +17784,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 64,
+              "value": 55,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17894,7 +18054,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 51,
+              "value": 49,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17912,7 +18072,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 47,
+              "value": 27,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -18038,7 +18198,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 127,
+              "value": 0,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -18274,7 +18434,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 127,
+              "value": 1,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -19210,7 +19370,7 @@
                   "controlAddress": "/lastPitch"
                 },
                 {
-                  "value": 15,
+                  "value": 57,
                   "hexMode": false,
                   "controlAddress": "/lastVelocity"
                 }
@@ -19486,6 +19646,10 @@
             {
               "value": "TD OSC Query Server",
               "controlAddress": "/serverName"
+            },
+            {
+              "value": true,
+              "controlAddress": "/isConnected"
             }
           ],
           "containers": {
@@ -19526,12 +19690,11 @@
         "values": {
           "containers": {
             "Gif": {
-              "editorIsCollapsed": true,
               "containers": {
                 "GIF": {
                   "parameters": [
                     {
-                      "value": 0.6661417484283447,
+                      "value": 0.5433070659637451,
                       "controlMode": 2,
                       "reference": {
                         "value": "/customVariables/gif/variables/scale/scale",
@@ -19540,7 +19703,7 @@
                       "controlAddress": "/Scale"
                     },
                     {
-                      "value": 0.0003149509429931641,
+                      "value": -0.0803149938583374,
                       "controlMode": 2,
                       "reference": {
                         "value": "/customVariables/gif/variables/tx/tx",
@@ -19549,7 +19712,7 @@
                       "controlAddress": "/Tx"
                     },
                     {
-                      "value": -0.2028740048408508,
+                      "value": -0.2341338396072388,
                       "controlMode": 2,
                       "reference": {
                         "value": "/customVariables/gif/variables/ty/ty",
@@ -19567,84 +19730,12 @@
                       "controlAddress": "/Opacity"
                     }
                   ],
-                  "editorIsCollapsed": true,
                   "owned": true,
                   "niceName": "GIF"
                 }
               },
               "owned": true,
               "niceName": "Gif"
-            },
-            "Breath": {
-              "editorIsCollapsed": true,
-              "containers": {
-                "Custom": {
-                  "parameters": [
-                    {
-                      "value": 1.228346467018127,
-                      "controlAddress": "/Speed"
-                    }
-                  ],
-                  "editorIsCollapsed": true,
-                  "owned": true,
-                  "niceName": "Custom"
-                }
-              },
-              "owned": true,
-              "niceName": "Breath"
-            },
-            "Glimpse": {
-              "editorIsCollapsed": true,
-              "containers": {
-                "Custom": {
-                  "editorIsCollapsed": true,
-                  "owned": true,
-                  "niceName": "Custom"
-                }
-              },
-              "owned": true,
-              "niceName": "Glimpse"
-            },
-            "Touch": {
-              "editorIsCollapsed": true,
-              "containers": {
-                "Custom": {
-                  "parameters": [
-                    {
-                      "value": 0.4100393652915955,
-                      "controlAddress": "/Speedbackground"
-                    }
-                  ],
-                  "editorIsCollapsed": true,
-                  "owned": true,
-                  "niceName": "Custom"
-                }
-              },
-              "owned": true,
-              "niceName": "Touch"
-            },
-            "Warning": {
-              "editorIsCollapsed": true,
-              "containers": {
-                "Custom": {
-                  "parameters": [
-                    {
-                      "value": [
-                        1.0,
-                        0.2078431397676468,
-                        0.0,
-                        1.0
-                      ],
-                      "controlAddress": "/Color"
-                    }
-                  ],
-                  "editorIsCollapsed": true,
-                  "owned": true,
-                  "niceName": "Custom"
-                }
-              },
-              "owned": true,
-              "niceName": "Warning"
             },
             "Resting": {
               "editorIsCollapsed": true,
@@ -19661,7 +19752,7 @@
                       "controlAddress": "/Frequency"
                     },
                     {
-                      "value": 0.08666667342185974,
+                      "value": 0.0866667,
                       "controlMode": 2,
                       "reference": {
                         "value": "/customVariables/delonghi_Resting/variables/decay/decay",
@@ -19670,13 +19761,17 @@
                       "controlAddress": "/Decay"
                     },
                     {
-                      "value": 2.800000190734863,
+                      "value": 2.8,
                       "controlMode": 2,
                       "reference": {
                         "value": "/customVariables/delonghi_Resting/variables/wlength/wlength",
                         "controlAddress": "/reference"
                       },
                       "controlAddress": "/Wlength"
+                    },
+                    {
+                      "value": 1.0,
+                      "controlAddress": "/Opacity"
                     }
                   ],
                   "editorIsCollapsed": true,
@@ -19714,12 +19809,21 @@
               "CONTENTS": {
                 "GIF": {
                   "CONTENTS": {
+                    "Gifrootfolderpath": {
+                      "TYPE": "s",
+                      "DESCRIPTION": "Gifrootfolderpath",
+                      "FULL_PATH": "/Gif/GIF/Gifrootfolderpath",
+                      "VALUE": [
+                        "D:\\Gamgie\\Projets\\TW\\Medias\\GIF"
+                      ],
+                      "ACCESS": 3
+                    },
                     "Scale": {
                       "TYPE": "f",
                       "DESCRIPTION": "Scale",
                       "FULL_PATH": "/Gif/GIF/Scale",
                       "VALUE": [
-                        0.0
+                        0.481102
                       ],
                       "RANGE": [
                         {
@@ -19734,7 +19838,7 @@
                       "DESCRIPTION": "Tx",
                       "FULL_PATH": "/Gif/GIF/Tx",
                       "VALUE": [
-                        -0.452953
+                        0.000314951
                       ],
                       "RANGE": [
                         {
@@ -19749,7 +19853,7 @@
                       "DESCRIPTION": "Ty",
                       "FULL_PATH": "/Gif/GIF/Ty",
                       "VALUE": [
-                        -0.671772
+                        -0.155984
                       ],
                       "RANGE": [
                         {
@@ -19764,7 +19868,7 @@
                       "DESCRIPTION": "Opacity",
                       "FULL_PATH": "/Gif/GIF/Opacity",
                       "VALUE": [
-                        0.0
+                        1.0
                       ],
                       "RANGE": [
                         {
@@ -19785,469 +19889,11 @@
                       "DESCRIPTION": "Resettransform",
                       "FULL_PATH": "/Gif/GIF/Resettransform",
                       "ACCESS": 3
-                    }
-                  }
-                }
-              }
-            },
-            "Breath": {
-              "CONTENTS": {
-                "Custom": {
-                  "CONTENTS": {
-                    "Onoff": {
-                      "TYPE": "T",
-                      "DESCRIPTION": "Onoff",
-                      "FULL_PATH": "/Breath/Custom/Onoff",
-                      "VALUE": [
-                        true
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1,
-                          "MIN": 0
-                        }
-                      ],
-                      "ACCESS": 3
                     },
-                    "Volumeoffset": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Volumeoffset",
-                      "FULL_PATH": "/Breath/Custom/Volumeoffset",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Intensity": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Intensity",
-                      "FULL_PATH": "/Breath/Custom/Intensity",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Speed": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Speed",
-                      "FULL_PATH": "/Breath/Custom/Speed",
-                      "VALUE": [
-                        0.900787353515625
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 10.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Color": {
-                      "TYPE": "r",
-                      "DESCRIPTION": "Color",
-                      "FULL_PATH": "/Breath/Custom/Color",
-                      "VALUE": [
-                        "#003dffff"
-                      ],
-                      "ACCESS": 3
-                    }
-                  }
-                }
-              }
-            },
-            "Glimpse": {
-              "CONTENTS": {
-                "Custom": {
-                  "CONTENTS": {
-                    "Onoff": {
-                      "TYPE": "T",
-                      "DESCRIPTION": "Onoff",
-                      "FULL_PATH": "/Glimpse/Custom/Onoff",
-                      "VALUE": [
-                        true
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1,
-                          "MIN": 0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Freeze": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Freeze",
-                      "FULL_PATH": "/Glimpse/Custom/Freeze",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Intensity": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Intensity",
-                      "FULL_PATH": "/Glimpse/Custom/Intensity",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Color": {
-                      "TYPE": "r",
-                      "DESCRIPTION": "Color",
-                      "FULL_PATH": "/Glimpse/Custom/Color",
-                      "VALUE": [
-                        "#0df6ffff"
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Extraglimpseintensity": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Extraglimpseintensity",
-                      "FULL_PATH": "/Glimpse/Custom/Extraglimpseintensity",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 2.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    }
-                  }
-                }
-              }
-            },
-            "Touch": {
-              "CONTENTS": {
-                "Custom": {
-                  "CONTENTS": {
-                    "Onoff": {
-                      "TYPE": "T",
-                      "DESCRIPTION": "Onoff",
-                      "FULL_PATH": "/Touch/Custom/Onoff",
-                      "VALUE": [
-                        true
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1,
-                          "MIN": 0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Intensitybckgnd": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Intensitybckgnd",
-                      "FULL_PATH": "/Touch/Custom/Intensitybckgnd",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Speedbackground": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Speedbackground",
-                      "FULL_PATH": "/Touch/Custom/Speedbackground",
-                      "VALUE": [
-                        0.001000000047497451
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Header": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Header",
-                      "FULL_PATH": "/Touch/Custom/Header",
-                      "VALUE": [
-                        ""
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Radius1": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Radius1",
-                      "FULL_PATH": "/Touch/Custom/Radius1",
-                      "VALUE": [
-                        0.08210000000000001
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 0.1,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Position1": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Position1",
-                      "FULL_PATH": "/Touch/Custom/Position1",
-                      "VALUE": [
-                        -0.235
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 0.5,
-                          "MIN": -0.5
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Opacity1": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Opacity1",
-                      "FULL_PATH": "/Touch/Custom/Opacity1",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Header2": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Header2",
-                      "FULL_PATH": "/Touch/Custom/Header2",
-                      "VALUE": [
-                        ""
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Radius2": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Radius2",
-                      "FULL_PATH": "/Touch/Custom/Radius2",
-                      "VALUE": [
-                        0.07820000000000001
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 0.1,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Position2": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Position2",
-                      "FULL_PATH": "/Touch/Custom/Position2",
-                      "VALUE": [
-                        0.366
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 0.5,
-                          "MIN": -0.5
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Opacity2": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Opacity2",
-                      "FULL_PATH": "/Touch/Custom/Opacity2",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Header3": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Header3",
-                      "FULL_PATH": "/Touch/Custom/Header3",
-                      "VALUE": [
-                        ""
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Radius3": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Radius3",
-                      "FULL_PATH": "/Touch/Custom/Radius3",
-                      "VALUE": [
-                        0.0772
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 0.1,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Position3": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Position3",
-                      "FULL_PATH": "/Touch/Custom/Position3",
-                      "VALUE": [
-                        -0.125
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 0.5,
-                          "MIN": -0.5
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Opacity3": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Opacity3",
-                      "FULL_PATH": "/Touch/Custom/Opacity3",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    }
-                  }
-                }
-              }
-            },
-            "Warning": {
-              "CONTENTS": {
-                "Custom": {
-                  "CONTENTS": {
-                    "Onoff": {
-                      "TYPE": "T",
-                      "DESCRIPTION": "Onoff",
-                      "FULL_PATH": "/Warning/Custom/Onoff",
-                      "VALUE": [
-                        true
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1,
-                          "MIN": 0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Warningpush": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Warningpush",
-                      "FULL_PATH": "/Warning/Custom/Warningpush",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Intensity": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Intensity",
-                      "FULL_PATH": "/Warning/Custom/Intensity",
-                      "VALUE": [
-                        0.0
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 1.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Speed": {
-                      "TYPE": "f",
-                      "DESCRIPTION": "Speed",
-                      "FULL_PATH": "/Warning/Custom/Speed",
-                      "VALUE": [
-                        1.06
-                      ],
-                      "RANGE": [
-                        {
-                          "MAX": 10.0,
-                          "MIN": 0.0
-                        }
-                      ],
-                      "ACCESS": 3
-                    },
-                    "Color": {
-                      "TYPE": "r",
-                      "DESCRIPTION": "Color",
-                      "FULL_PATH": "/Warning/Custom/Color",
-                      "VALUE": [
-                        "#ff3500ff"
-                      ],
+                    "Bonnet": {
+                      "TYPE": "N",
+                      "DESCRIPTION": "Bonnet",
+                      "FULL_PATH": "/Gif/GIF/Bonnet",
                       "ACCESS": 3
                     }
                   }
@@ -20263,7 +19909,7 @@
                       "DESCRIPTION": "Frequency",
                       "FULL_PATH": "/Resting/Custom/Frequency",
                       "VALUE": [
-                        0.2633333206176758
+                        1.0
                       ],
                       "RANGE": [
                         {
@@ -20278,7 +19924,7 @@
                       "DESCRIPTION": "Decay",
                       "FULL_PATH": "/Resting/Custom/Decay",
                       "VALUE": [
-                        0.8999999761581421
+                        0.0866667
                       ],
                       "RANGE": [
                         {
@@ -20293,7 +19939,7 @@
                       "DESCRIPTION": "Wlength",
                       "FULL_PATH": "/Resting/Custom/Wlength",
                       "VALUE": [
-                        7.533333778381348
+                        2.8
                       ],
                       "RANGE": [
                         {
@@ -20308,7 +19954,7 @@
                       "DESCRIPTION": "Opacity",
                       "FULL_PATH": "/Resting/Custom/Opacity",
                       "VALUE": [
-                        0.0
+                        1.0
                       ],
                       "RANGE": [
                         {
@@ -20331,7 +19977,7 @@
                       "DESCRIPTION": "Opacity",
                       "FULL_PATH": "/Sideration/Custom/Opacity",
                       "VALUE": [
-                        1.0
+                        0.0
                       ],
                       "RANGE": [
                         {
@@ -20347,7 +19993,7 @@
             }
           }
         },
-        "hasListenExtension": false
+        "hasListenExtension": true
       },
       {
         "niceName": "Sound Card",
@@ -20362,7 +20008,7 @@
         "params": {
           "parameters": [
             {
-              "value": 1.0,
+              "value": 0.2125984281301498,
               "controlAddress": "/outVolume"
             }
           ],
@@ -20385,14 +20031,6 @@
                 {
                   "value": true,
                   "controlAddress": "/monitorOutRight"
-                },
-                {
-                  "value": true,
-                  "controlAddress": "/monitorOutLeftSurround"
-                },
-                {
-                  "value": true,
-                  "controlAddress": "/monitorOutRightSurround"
                 }
               ]
             },
@@ -20427,7 +20065,7 @@
           ],
           "viewZoom": 1.0
         },
-        "audioSettings": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n<DEVICESETUP deviceType=\"Windows Audio\" audioOutputDeviceName=\"Headphones (Realtek(R) Audio)\"\r\n             audioInputDeviceName=\"\" audioDeviceRate=\"48000.0\" audioDeviceOutChans=\"1111\"/>\r\n",
+        "audioSettings": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n<DEVICESETUP deviceType=\"Windows Audio\" audioOutputDeviceName=\"Headphones (Realtek(R) Audio)\"\r\n             audioInputDeviceName=\"\" audioDeviceRate=\"48000.0\"/>\r\n",
         "analyzer": {
           "parameters": [
             {
@@ -20633,7 +20271,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.04052358643068905,
+                  "value": 0.04052358939510435,
                   "minValue": 0,
                   "maxValue": 1,
                   "default": 0,
@@ -20654,7 +20292,7 @@
             {
               "parameters": [
                 {
-                  "value": 1.070341632477504,
+                  "value": 1.066181795429914,
                   "minValue": 0,
                   "maxValue": 10,
                   "default": 0,
@@ -20696,7 +20334,7 @@
             {
               "parameters": [
                 {
-                  "value": 46.00000046053901,
+                  "value": 60.92541768626492,
                   "minValue": 0,
                   "maxValue": 200,
                   "default": 0,
@@ -20717,7 +20355,7 @@
             {
               "parameters": [
                 {
-                  "value": 10.86649693029004,
+                  "value": 7.860419862754521,
                   "minValue": 0,
                   "maxValue": 20,
                   "default": 0,
@@ -20738,7 +20376,7 @@
             {
               "parameters": [
                 {
-                  "value": 499.99999688589,
+                  "value": 500.0,
                   "minValue": 0,
                   "maxValue": 500,
                   "default": 0,
@@ -20759,7 +20397,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.4237942463612475,
+                  "value": 0.690000840818774,
                   "minValue": 0,
                   "maxValue": 10,
                   "default": 0,
@@ -20843,7 +20481,7 @@
             {
               "parameters": [
                 {
-                  "value": 2.225997947090751,
+                  "value": 0.004443110141387763,
                   "minValue": 0,
                   "maxValue": 50,
                   "default": 0,
@@ -20864,7 +20502,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.5675271210269223,
+                  "value": 0.001132788783674704,
                   "minValue": 0,
                   "maxValue": 20,
                   "default": 0,
@@ -20885,7 +20523,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.2147655918855511,
+                  "value": 0.001285522312795412,
                   "minValue": 0,
                   "maxValue": 10,
                   "default": 0,
@@ -20906,7 +20544,7 @@
             {
               "parameters": [
                 {
-                  "value": 6.954248008016489,
+                  "value": 2.362283437858701,
                   "minValue": 0,
                   "maxValue": 10,
                   "default": 0,
@@ -20927,7 +20565,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.002939330145514944,
+                  "value": 0.002315680479659162,
                   "minValue": 0,
                   "maxValue": 10,
                   "default": 0,
@@ -20948,7 +20586,7 @@
             {
               "parameters": [
                 {
-                  "value": -2.025602403309108,
+                  "value": 0.000629120499354485,
                   "minValue": -10,
                   "maxValue": 10,
                   "default": 0,
@@ -22022,7 +21660,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.0,
+                  "value": 1.0,
                   "controlAddress": "/weight"
                 },
                 {
@@ -22256,7 +21894,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.787401556968689,
+                  "value": 0.0,
                   "controlAddress": "/weight"
                 },
                 {
@@ -22546,7 +22184,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.0,
+                  "value": 0.111964151263237,
                   "minValue": 0,
                   "maxValue": 1,
                   "default": 0,
@@ -22567,7 +22205,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.05750393867492676,
+                  "value": 0.1752204895019531,
                   "minValue": 0.001000000047497451,
                   "maxValue": 0.300000011920929,
                   "default": 0,
@@ -22610,7 +22248,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.6661417484283447,
+                  "value": 0.5433070659637451,
                   "minValue": 0,
                   "maxValue": 5,
                   "default": 0.9143810272216797,
@@ -22631,7 +22269,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.0003149509429931641,
+                  "value": -0.0803149938583374,
                   "minValue": -1,
                   "maxValue": 1,
                   "default": 0,
@@ -22652,7 +22290,7 @@
             {
               "parameters": [
                 {
-                  "value": -0.2028740048408508,
+                  "value": -0.2341338396072388,
                   "minValue": -1,
                   "maxValue": 1,
                   "default": 0,
@@ -25954,7 +25592,7 @@
                           "controlAddress": "/length"
                         },
                         {
-                          "value": 0.0,
+                          "value": 0.4094488322734833,
                           "controlAddress": "/position"
                         },
                         {
@@ -30569,8 +30207,8 @@
           },
           {
             "value": [
-              388.0,
-              430.6122436523438
+              392.967041015625,
+              481.7582397460938
             ],
             "controlAddress": "/viewUISize"
           },
@@ -30666,7 +30304,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "/modules/midiLaunchControlXL/values/_1_G5",
+                        "value": "/modules/mpd218/values/_10_C#2",
                         "controlAddress": "/inputValue"
                       }
                     ],
@@ -30675,7 +30313,11 @@
                     "comparator": {
                       "parameters": [
                         {
-                          "value": 127,
+                          "value": ">",
+                          "controlAddress": "/comparisonFunction"
+                        },
+                        {
+                          "value": 0,
                           "hexMode": false,
                           "controlAddress": "/reference"
                         }
@@ -30731,6 +30373,397 @@
               }
             },
             {
+              "niceName": "Opacity Toggle A16",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": "/modules/mpd218/values/_10_D#2",
+                        "controlAddress": "/inputValue"
+                      },
+                      {
+                        "value": true,
+                        "controlAddress": "/toggleMode"
+                      }
+                    ],
+                    "niceName": "From Input Value",
+                    "type": "From Input Value",
+                    "comparator": {
+                      "parameters": [
+                        {
+                          "value": ">",
+                          "controlAddress": "/comparisonFunction"
+                        },
+                        {
+                          "value": 0,
+                          "hexMode": false,
+                          "controlAddress": "/reference"
+                        }
+                      ],
+                      "hideInEditor": true
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "consequences": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlAddress": "/cancelDelaysOnTrigger"
+                  }
+                ],
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "Consequence",
+                    "commandModule": "customVariables",
+                    "commandPath": "",
+                    "commandType": "Go to Value",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/gif/opacity",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": "All",
+                          "controlAddress": "/component"
+                        },
+                        {
+                          "value": "Equals",
+                          "controlAddress": "/operator"
+                        },
+                        {
+                          "value": 0.300000011920929,
+                          "controlAddress": "/time"
+                        },
+                        {
+                          "value": 1.0,
+                          "controlAddress": "/value"
+                        }
+                      ],
+                      "containers": {
+                        "curve": {
+                          "parameters": [
+                            {
+                              "value": 1.0,
+                              "controlAddress": "/length"
+                            },
+                            {
+                              "value": [
+                                0.0,
+                                1.0
+                              ],
+                              "controlAddress": "/viewValueRange"
+                            },
+                            {
+                              "value": [
+                                0.0,
+                                1.0
+                              ],
+                              "controlAddress": "/range",
+                              "enabled": true
+                            }
+                          ],
+                          "hideInRemoteControl": false,
+                          "items": [
+                            {
+                              "parameters": [
+                                {
+                                  "value": "Bezier",
+                                  "controlAddress": "/easingType"
+                                }
+                              ],
+                              "niceName": "Key",
+                              "containers": {
+                                "easing": {
+                                  "parameters": [
+                                    {
+                                      "value": [
+                                        0.300000011920929,
+                                        0.0
+                                      ],
+                                      "controlAddress": "/anchor1"
+                                    },
+                                    {
+                                      "value": [
+                                        -0.300000011920929,
+                                        0.0
+                                      ],
+                                      "controlAddress": "/anchor2"
+                                    }
+                                  ]
+                                }
+                              },
+                              "type": "Key"
+                            },
+                            {
+                              "parameters": [
+                                {
+                                  "value": 1.0,
+                                  "controlAddress": "/position"
+                                },
+                                {
+                                  "value": 1.0,
+                                  "controlAddress": "/value"
+                                },
+                                {
+                                  "value": "Bezier",
+                                  "controlAddress": "/easingType"
+                                }
+                              ],
+                              "niceName": "Key 1",
+                              "containers": {
+                                "easing": {
+                                }
+                              },
+                              "type": "Key"
+                            }
+                          ],
+                          "viewOffset": [
+                            0,
+                            0
+                          ],
+                          "viewZoom": 1.0
+                        }
+                      },
+                      "paramLinks": {
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "consequencesOff": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlAddress": "/cancelDelaysOnTrigger"
+                  }
+                ],
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "Consequence",
+                    "commandModule": "customVariables",
+                    "commandPath": "",
+                    "commandType": "Go to Value",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/gif/opacity",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": "All",
+                          "controlAddress": "/component"
+                        },
+                        {
+                          "value": "Equals",
+                          "controlAddress": "/operator"
+                        },
+                        {
+                          "value": 0.5,
+                          "controlAddress": "/time"
+                        },
+                        {
+                          "value": 0.0,
+                          "controlAddress": "/value"
+                        }
+                      ],
+                      "containers": {
+                        "curve": {
+                          "parameters": [
+                            {
+                              "value": 1.0,
+                              "controlAddress": "/length"
+                            },
+                            {
+                              "value": [
+                                0.0,
+                                1.0
+                              ],
+                              "controlAddress": "/viewValueRange"
+                            },
+                            {
+                              "value": [
+                                0.0,
+                                1.0
+                              ],
+                              "controlAddress": "/range",
+                              "enabled": true
+                            }
+                          ],
+                          "hideInRemoteControl": false,
+                          "items": [
+                            {
+                              "parameters": [
+                                {
+                                  "value": "Bezier",
+                                  "controlAddress": "/easingType"
+                                }
+                              ],
+                              "niceName": "Key",
+                              "containers": {
+                                "easing": {
+                                  "parameters": [
+                                    {
+                                      "value": [
+                                        0.300000011920929,
+                                        0.0
+                                      ],
+                                      "controlAddress": "/anchor1"
+                                    },
+                                    {
+                                      "value": [
+                                        -0.300000011920929,
+                                        0.0
+                                      ],
+                                      "controlAddress": "/anchor2"
+                                    }
+                                  ]
+                                }
+                              },
+                              "type": "Key"
+                            },
+                            {
+                              "parameters": [
+                                {
+                                  "value": 1.0,
+                                  "controlAddress": "/position"
+                                },
+                                {
+                                  "value": 1.0,
+                                  "controlAddress": "/value"
+                                },
+                                {
+                                  "value": "Bezier",
+                                  "controlAddress": "/easingType"
+                                }
+                              ],
+                              "niceName": "Key 1",
+                              "containers": {
+                                "easing": {
+                                }
+                              },
+                              "type": "Key"
+                            }
+                          ],
+                          "viewOffset": [
+                            0,
+                            0
+                          ],
+                          "viewZoom": 1.0
+                        }
+                      },
+                      "paramLinks": {
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              }
+            },
+            {
+              "niceName": "Bonnet A13",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": "/modules/mpd218/values/_10_C2",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "From Input Value",
+                    "type": "From Input Value",
+                    "comparator": {
+                      "parameters": [
+                        {
+                          "value": ">",
+                          "controlAddress": "/comparisonFunction"
+                        },
+                        {
+                          "value": 0,
+                          "hexMode": false,
+                          "controlAddress": "/reference"
+                        }
+                      ],
+                      "hideInEditor": true
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "consequences": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlAddress": "/cancelDelaysOnTrigger"
+                  }
+                ],
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "Consequence",
+                    "commandModule": "tdOSCQuery",
+                    "commandPath": "",
+                    "commandType": "Trigger",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/Gif/GIF/Bonnet",
+                          "controlAddress": "/target"
+                        }
+                      ],
+                      "paramLinks": {
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "consequencesOff": {
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              }
+            },
+            {
+              "parameters": [
+                {
+                  "value": false,
+                  "controlAddress": "/enabled"
+                }
+              ],
               "niceName": "Opacity",
               "editorIsCollapsed": true,
               "type": "Mapping",
@@ -30907,7 +30940,7 @@
                         {
                           "value": [
                             0.0,
-                            4.699999809265137
+                            1.5
                           ],
                           "controlAddress": "/targetMin_Max"
                         }
@@ -30917,15 +30950,9 @@
                     }
                   },
                   {
-                    "niceName": "Smooth",
-                    "type": "Smooth",
+                    "niceName": "Damping",
+                    "type": "Damping",
                     "filterParams": {
-                      "parameters": [
-                        {
-                          "value": 0.9605820178985596,
-                          "controlAddress": "/smoothing"
-                        }
-                      ],
                       "paramLinks": {
                       }
                     }
@@ -31029,8 +31056,8 @@
                         },
                         {
                           "value": [
-                            -1.0,
-                            0.9850000143051147
+                            -0.6000000238418579,
+                            0.6000000238418579
                           ],
                           "controlAddress": "/targetMin_Max"
                         }
@@ -31040,13 +31067,13 @@
                     }
                   },
                   {
-                    "niceName": "Smooth",
-                    "type": "Smooth",
+                    "niceName": "Damping",
+                    "type": "Damping",
                     "filterParams": {
                       "parameters": [
                         {
-                          "value": 0.6564885377883911,
-                          "controlAddress": "/smoothing"
+                          "value": 0.8029339909553528,
+                          "controlAddress": "/force"
                         }
                       ],
                       "paramLinks": {
@@ -31163,13 +31190,17 @@
                     }
                   },
                   {
-                    "niceName": "Smooth",
-                    "type": "Smooth",
+                    "niceName": "Damping",
+                    "type": "Damping",
                     "filterParams": {
                       "parameters": [
                         {
-                          "value": 0.6564885377883911,
-                          "controlAddress": "/smoothing"
+                          "value": 0.8029339909553528,
+                          "controlAddress": "/force"
+                        },
+                        {
+                          "value": 0.2171149253845215,
+                          "controlAddress": "/friction"
                         }
                       ],
                       "paramLinks": {
@@ -39425,7 +39456,8 @@
                     "command": {
                       "parameters": [
                         {
-                          "value": "/Breath/Custom/Intensity",
+                          "value": "",
+                          "ghostValue": "/Breath/Custom/Intensity",
                           "controlAddress": "/target"
                         },
                         {
@@ -39438,10 +39470,6 @@
                         }
                       ],
                       "paramLinks": {
-                        "value": {
-                          "linkType": 1,
-                          "mappingValueIndex": 0
-                        }
                       }
                     }
                   }
@@ -39552,7 +39580,8 @@
                     "command": {
                       "parameters": [
                         {
-                          "value": "/Breath/Custom/Speed",
+                          "value": "",
+                          "ghostValue": "/Breath/Custom/Speed",
                           "controlAddress": "/target"
                         },
                         {
@@ -39565,10 +39594,6 @@
                         }
                       ],
                       "paramLinks": {
-                        "value": {
-                          "linkType": 1,
-                          "mappingValueIndex": 0
-                        }
                       }
                     }
                   }
@@ -39708,7 +39733,8 @@
                     "command": {
                       "parameters": [
                         {
-                          "value": "/Touch/Custom/Intensitybckgnd",
+                          "value": "",
+                          "ghostValue": "/Touch/Custom/Intensitybckgnd",
                           "controlAddress": "/target"
                         },
                         {
@@ -39721,10 +39747,6 @@
                         }
                       ],
                       "paramLinks": {
-                        "value": {
-                          "linkType": 1,
-                          "mappingValueIndex": 0
-                        }
                       }
                     }
                   }
@@ -39794,7 +39816,8 @@
                     "command": {
                       "parameters": [
                         {
-                          "value": "/Touch/Custom/Opacity1",
+                          "value": "",
+                          "ghostValue": "/Touch/Custom/Opacity1",
                           "controlAddress": "/target"
                         },
                         {
@@ -39808,10 +39831,6 @@
                         {
                           "value": 4.799998760223389,
                           "controlAddress": "/time"
-                        },
-                        {
-                          "value": 1.0,
-                          "controlAddress": "/value"
                         }
                       ],
                       "containers": {
@@ -39927,7 +39946,8 @@
                     "command": {
                       "parameters": [
                         {
-                          "value": "/Touch/Custom/Opacity1",
+                          "value": "",
+                          "ghostValue": "/Touch/Custom/Opacity1",
                           "controlAddress": "/target"
                         },
                         {
@@ -40098,7 +40118,8 @@
                     "command": {
                       "parameters": [
                         {
-                          "value": "/Touch/Custom/Opacity2",
+                          "value": "",
+                          "ghostValue": "/Touch/Custom/Opacity2",
                           "controlAddress": "/target"
                         },
                         {
@@ -40112,10 +40133,6 @@
                         {
                           "value": 4.799998760223389,
                           "controlAddress": "/time"
-                        },
-                        {
-                          "value": 1.0,
-                          "controlAddress": "/value"
                         }
                       ],
                       "containers": {
@@ -40231,7 +40248,8 @@
                     "command": {
                       "parameters": [
                         {
-                          "value": "/Touch/Custom/Opacity2",
+                          "value": "",
+                          "ghostValue": "/Touch/Custom/Opacity2",
                           "controlAddress": "/target"
                         },
                         {
@@ -40402,7 +40420,8 @@
                     "command": {
                       "parameters": [
                         {
-                          "value": "/Touch/Custom/Opacity3",
+                          "value": "",
+                          "ghostValue": "/Touch/Custom/Opacity3",
                           "controlAddress": "/target"
                         },
                         {
@@ -40416,10 +40435,6 @@
                         {
                           "value": 4.799998760223389,
                           "controlAddress": "/time"
-                        },
-                        {
-                          "value": 1.0,
-                          "controlAddress": "/value"
                         }
                       ],
                       "containers": {
@@ -40535,7 +40550,8 @@
                     "command": {
                       "parameters": [
                         {
-                          "value": "/Touch/Custom/Opacity3",
+                          "value": "",
+                          "ghostValue": "/Touch/Custom/Opacity3",
                           "controlAddress": "/target"
                         },
                         {
@@ -40858,7 +40874,8 @@
                     "command": {
                       "parameters": [
                         {
-                          "value": "/Touch/Custom/Speedbackground",
+                          "value": "",
+                          "ghostValue": "/Touch/Custom/Speedbackground",
                           "controlAddress": "/target"
                         },
                         {
@@ -40871,10 +40888,6 @@
                         }
                       ],
                       "paramLinks": {
-                        "value": {
-                          "linkType": 1,
-                          "mappingValueIndex": 0
-                        }
                       }
                     }
                   }
@@ -41011,7 +41024,8 @@
                     "command": {
                       "parameters": [
                         {
-                          "value": "/Glimpse/Custom/Intensity",
+                          "value": "",
+                          "ghostValue": "/Glimpse/Custom/Intensity",
                           "controlAddress": "/target"
                         },
                         {
@@ -41024,10 +41038,6 @@
                         }
                       ],
                       "paramLinks": {
-                        "value": {
-                          "linkType": 1,
-                          "mappingValueIndex": 0
-                        }
                       }
                     }
                   }
@@ -41398,7 +41408,8 @@
                     "command": {
                       "parameters": [
                         {
-                          "value": "/Glimpse/Custom/Color",
+                          "value": "",
+                          "ghostValue": "/Glimpse/Custom/Color",
                           "controlAddress": "/target"
                         },
                         {
@@ -41411,10 +41422,6 @@
                         }
                       ],
                       "paramLinks": {
-                        "value": {
-                          "linkType": 1,
-                          "mappingValueIndex": 0
-                        }
                       }
                     }
                   }
@@ -41507,7 +41514,8 @@
                     "command": {
                       "parameters": [
                         {
-                          "value": "/Glimpse/Custom/Extraglimpseintensity",
+                          "value": "",
+                          "ghostValue": "/Glimpse/Custom/Extraglimpseintensity",
                           "controlAddress": "/target"
                         },
                         {
@@ -41520,10 +41528,6 @@
                         }
                       ],
                       "paramLinks": {
-                        "value": {
-                          "linkType": 1,
-                          "mappingValueIndex": 0
-                        }
                       }
                     }
                   }
@@ -41725,7 +41729,8 @@
                     "command": {
                       "parameters": [
                         {
-                          "value": "/Glimpse/Custom/Freeze",
+                          "value": "",
+                          "ghostValue": "/Glimpse/Custom/Freeze",
                           "controlAddress": "/target"
                         },
                         {
@@ -41738,10 +41743,6 @@
                         }
                       ],
                       "paramLinks": {
-                        "value": {
-                          "linkType": 1,
-                          "mappingValueIndex": 0
-                        }
                       }
                     }
                   }
@@ -41881,7 +41882,8 @@
                     "command": {
                       "parameters": [
                         {
-                          "value": "/Warning/Custom/Intensity",
+                          "value": "",
+                          "ghostValue": "/Warning/Custom/Intensity",
                           "controlAddress": "/target"
                         },
                         {
@@ -41894,10 +41896,6 @@
                         }
                       ],
                       "paramLinks": {
-                        "value": {
-                          "linkType": 1,
-                          "mappingValueIndex": 0
-                        }
                       }
                     }
                   }
@@ -42016,7 +42014,8 @@
                     "command": {
                       "parameters": [
                         {
-                          "value": "/Warning/Custom/Warningpush",
+                          "value": "",
+                          "ghostValue": "/Warning/Custom/Warningpush",
                           "controlAddress": "/target"
                         },
                         {
@@ -42029,10 +42028,6 @@
                         }
                       ],
                       "paramLinks": {
-                        "value": {
-                          "linkType": 1,
-                          "mappingValueIndex": 0
-                        }
                       }
                     }
                   }
@@ -42085,7 +42080,8 @@
                     "command": {
                       "parameters": [
                         {
-                          "value": "/Warning/Custom/Color",
+                          "value": "",
+                          "ghostValue": "/Warning/Custom/Color",
                           "controlAddress": "/target"
                         },
                         {
@@ -42099,15 +42095,6 @@
                         {
                           "value": 4.999998569488525,
                           "controlAddress": "/time"
-                        },
-                        {
-                          "value": [
-                            1.0,
-                            0.2078431397676468,
-                            0.0,
-                            1.0
-                          ],
-                          "controlAddress": "/value"
                         }
                       ],
                       "containers": {
@@ -42254,7 +42241,8 @@
                     "command": {
                       "parameters": [
                         {
-                          "value": "/Warning/Custom/Color",
+                          "value": "",
+                          "ghostValue": "/Warning/Custom/Color",
                           "controlAddress": "/target"
                         },
                         {
@@ -42268,15 +42256,6 @@
                         {
                           "value": 4.999998569488525,
                           "controlAddress": "/time"
-                        },
-                        {
-                          "value": [
-                            1.0,
-                            0.0,
-                            0.7215686440467834,
-                            1.0
-                          ],
-                          "controlAddress": "/value"
                         }
                       ],
                       "containers": {
@@ -46370,7 +46349,7 @@
             {
               "parameters": [
                 {
-                  "value": 318.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -54840,7 +54819,7 @@
             {
               "parameters": [
                 {
-                  "value": 136.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -55047,7 +55026,7 @@
             {
               "parameters": [
                 {
-                  "value": 136.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -55254,7 +55233,7 @@
             {
               "parameters": [
                 {
-                  "value": 136.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -56019,11 +55998,11 @@
             {
               "parameters": [
                 {
-                  "value": 24.0,
+                  "value": 136.0,
                   "controlAddress": "/listSize"
                 },
                 {
-                  "value": 1,
+                  "value": 3,
                   "hexMode": false,
                   "controlAddress": "/nextCue"
                 }
@@ -56459,8 +56438,8 @@
       }
     ],
     "viewOffset": [
-      -181,
-      62
+      -232,
+      70
     ],
     "viewZoom": 1.0,
     "transitions": {
@@ -56474,8 +56453,8 @@
     "comments": {
       "hideInEditor": true,
       "viewOffset": [
-        -181,
-        62
+        -232,
+        70
       ],
       "viewZoom": 1.0
     }
@@ -57430,8 +57409,7 @@
             0
           ],
           "viewZoom": 1.0
-        },
-        "editing": true
+        }
       },
       {
         "parameters": [
