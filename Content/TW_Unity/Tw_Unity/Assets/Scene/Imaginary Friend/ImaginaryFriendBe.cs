@@ -25,6 +25,9 @@ public class ImaginaryFriendBe : MonoBehaviour
     public float perlinAmplitude;
     public float perlinSpeed;
 
+    [Header("Follow Settings")]
+    public float followDepth = 10f;
+
     [Header("Emitter1")]
     public float rate1;
     public float life1;
@@ -75,28 +78,21 @@ public class ImaginaryFriendBe : MonoBehaviour
     {
         if(followMouse)
         {
-            
             // Check if we are in the screen. We add an slight offset so IF can go offscreen sometime.
             float absoluteMouseX = Mouse.current.position.ReadValue().x / Screen.width;
             float absoluteMouseY = Mouse.current.position.ReadValue().y / Screen.height;
 
-            if (absoluteMouseX >= -0.5f && absoluteMouseX <= 1.5f 
-                &&
-                absoluteMouseY >= -0.5f && absoluteMouseY <= 1.5f)
+            // Check if left button is pressed
+            if (Mouse.current.leftButton.isPressed && _cam != null)
             {
-                // Check if left button is pressed
-                if (Mouse.current.leftButton.isPressed && _cam != null)
-                {
-                    Ray r = _cam.ScreenPointToRay(Mouse.current.position.ReadValue());
-                    RaycastHit hit;
+                Ray r = _cam.ScreenPointToRay(Mouse.current.position.ReadValue());
+                RaycastHit hit;
 
-                    if (Physics.Raycast(r, out hit))
-                    {
-                        transform.position = Vector3.SmoothDamp(transform.position, hit.point, ref velocity, smoothFollow);
-                    }
+                if (Physics.Raycast(r, out hit))
+                {
+                    transform.position = Vector3.SmoothDamp(transform.position, hit.point, ref velocity, smoothFollow);
                 }
             }
-
         }
 
         UpdateBrownianNoise();
