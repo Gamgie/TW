@@ -7107,22 +7107,126 @@
       "direction": 2,
       "shifters": [
         {
-          "type": 0,
+          "type": 1,
           "width": 1920,
           "height": 989,
-          "currentContent": "Dashboard",
-          "tabs": [
+          "direction": 2,
+          "shifters": [
             {
-              "name": "Dashboard"
+              "type": 1,
+              "width": 1920,
+              "height": 570,
+              "direction": 1,
+              "shifters": [
+                {
+                  "type": 1,
+                  "width": 307,
+                  "height": 570,
+                  "direction": 2,
+                  "shifters": [
+                    {
+                      "type": 0,
+                      "width": 307,
+                      "height": 292,
+                      "currentContent": "Modules",
+                      "tabs": [
+                        {
+                          "name": "Modules"
+                        }
+                      ]
+                    },
+                    {
+                      "type": 0,
+                      "width": 307,
+                      "height": 272,
+                      "currentContent": "Custom Variables",
+                      "tabs": [
+                        {
+                          "name": "Custom Variables"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 849,
+                  "height": 570,
+                  "currentContent": "State Machine",
+                  "tabs": [
+                    {
+                      "name": "State Machine"
+                    },
+                    {
+                      "name": "Dashboard"
+                    },
+                    {
+                      "name": "Module Router"
+                    },
+                    {
+                      "name": "Morpher"
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 752,
+                  "height": 570,
+                  "currentContent": "Inspector",
+                  "tabs": [
+                    {
+                      "name": "Inspector"
+                    }
+                  ]
+                }
+              ]
             },
             {
-              "name": "Modules"
-            },
-            {
-              "name": "Inspector"
-            },
-            {
-              "name": "State Machine"
+              "type": 1,
+              "width": 1920,
+              "height": 412,
+              "direction": 1,
+              "shifters": [
+                {
+                  "type": 0,
+                  "width": 178,
+                  "height": 412,
+                  "currentContent": "Sequences",
+                  "tabs": [
+                    {
+                      "name": "Sequences"
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 1256,
+                  "height": 412,
+                  "currentContent": "Sequence Editor",
+                  "tabs": [
+                    {
+                      "name": "Sequence Editor"
+                    }
+                  ]
+                },
+                {
+                  "type": 0,
+                  "width": 474,
+                  "height": 412,
+                  "currentContent": "Logger",
+                  "tabs": [
+                    {
+                      "name": "Help"
+                    },
+                    {
+                      "name": "Logger"
+                    },
+                    {
+                      "name": "Warnings"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -17732,7 +17836,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 15,
+              "value": 22,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -19457,12 +19561,12 @@
                   "controlAddress": "/lastChannel"
                 },
                 {
-                  "value": 50,
+                  "value": 39,
                   "hexMode": false,
                   "controlAddress": "/lastPitch"
                 },
                 {
-                  "value": 42,
+                  "value": 72,
                   "hexMode": false,
                   "controlAddress": "/lastVelocity"
                 }
@@ -19787,7 +19891,7 @@
                 "GIF": {
                   "parameters": [
                     {
-                      "value": 0.1771653592586517,
+                      "value": 0.2598425149917603,
                       "controlMode": 2,
                       "reference": {
                         "value": "/customVariables/gif/variables/scale/scale",
@@ -19805,7 +19909,7 @@
                       "controlAddress": "/Tx"
                     },
                     {
-                      "value": -0.1102361977100372,
+                      "value": -0.110236,
                       "controlMode": 2,
                       "reference": {
                         "value": "/customVariables/gif/variables/ty/ty",
@@ -19814,7 +19918,7 @@
                       "controlAddress": "/Ty"
                     },
                     {
-                      "value": 0.0,
+                      "value": 1.0,
                       "controlMode": 2,
                       "reference": {
                         "value": "/customVariables/gif/variables/opacity/opacity",
@@ -19917,7 +20021,7 @@
                       "DESCRIPTION": "Scale",
                       "FULL_PATH": "/Gif/GIF/Scale",
                       "VALUE": [
-                        0.2716535329818726
+                        0.2598425149917603
                       ],
                       "RANGE": [
                         {
@@ -19932,7 +20036,7 @@
                       "DESCRIPTION": "Tx",
                       "FULL_PATH": "/Gif/GIF/Tx",
                       "VALUE": [
-                        -0.0433070957660675
+                        -0.2007873952388763
                       ],
                       "RANGE": [
                         {
@@ -19947,7 +20051,7 @@
                       "DESCRIPTION": "Ty",
                       "FULL_PATH": "/Gif/GIF/Ty",
                       "VALUE": [
-                        -0.09763780236244202
+                        -0.110236
                       ],
                       "RANGE": [
                         {
@@ -19994,6 +20098,12 @@
                       "TYPE": "N",
                       "DESCRIPTION": "Flipimage",
                       "FULL_PATH": "/Gif/GIF/Flipimage",
+                      "ACCESS": 3
+                    },
+                    "Humhum": {
+                      "TYPE": "N",
+                      "DESCRIPTION": "Humhum",
+                      "FULL_PATH": "/Gif/GIF/Humhum",
                       "ACCESS": 3
                     }
                   }
@@ -22348,7 +22458,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.1771653592586517,
+                  "value": 0.2598425149917603,
                   "minValue": 0,
                   "maxValue": 5,
                   "default": 0.9143810272216797,
@@ -22411,7 +22521,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.0,
+                  "value": 1.0,
                   "minValue": 0,
                   "maxValue": 1,
                   "default": 1,
@@ -31818,23 +31928,6 @@
                 ],
                 "items": [
                   {
-                    "niceName": "Consequence 1",
-                    "type": "Consequence",
-                    "commandModule": "sequences",
-                    "commandPath": "Playback",
-                    "commandType": "Stop Sequence",
-                    "command": {
-                      "parameters": [
-                        {
-                          "value": "/sequences/humhum",
-                          "controlAddress": "/target"
-                        }
-                      ],
-                      "paramLinks": {
-                      }
-                    }
-                  },
-                  {
                     "niceName": "Consequence",
                     "type": "Consequence",
                     "commandModule": "sequences",
@@ -31852,61 +31945,19 @@
                     }
                   },
                   {
-                    "niceName": "Consequence 2",
+                    "niceName": "Consequence 1",
                     "type": "Consequence",
-                    "commandModule": "resolume",
-                    "commandPath": "Launch / Stop",
-                    "commandType": "Launch Clip",
+                    "commandModule": "tdOSCQuery",
+                    "commandPath": "",
+                    "commandType": "Trigger",
                     "command": {
                       "parameters": [
                         {
-                          "value": "Clip",
-                          "controlAddress": "/level"
-                        },
-                        {
-                          "value": 2,
-                          "hexMode": false,
-                          "controlAddress": "/layer"
-                        },
-                        {
-                          "value": 5,
-                          "hexMode": false,
-                          "controlAddress": "/clip"
+                          "value": "/Gif/GIF/Humhum",
+                          "controlAddress": "/target"
                         }
                       ],
                       "paramLinks": {
-                      },
-                      "arguments": {
-                        "hideInEditor": true,
-                        "paramLinks": {
-                        }
-                      }
-                    }
-                  },
-                  {
-                    "niceName": "Consequence 3",
-                    "type": "Consequence",
-                    "commandModule": "resolume",
-                    "commandPath": "Launch / Stop",
-                    "commandType": "Launch Clip",
-                    "command": {
-                      "parameters": [
-                        {
-                          "value": "Clip",
-                          "controlAddress": "/level"
-                        },
-                        {
-                          "value": 4,
-                          "hexMode": false,
-                          "controlAddress": "/clip"
-                        }
-                      ],
-                      "paramLinks": {
-                      },
-                      "arguments": {
-                        "hideInEditor": true,
-                        "paramLinks": {
-                        }
                       }
                     }
                   }
@@ -46607,7 +46658,7 @@
             {
               "parameters": [
                 {
-                  "value": 318.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -55077,7 +55128,7 @@
             {
               "parameters": [
                 {
-                  "value": 136.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -55284,7 +55335,7 @@
             {
               "parameters": [
                 {
-                  "value": 136.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -55491,7 +55542,7 @@
             {
               "parameters": [
                 {
-                  "value": 136.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -56256,7 +56307,7 @@
             {
               "parameters": [
                 {
-                  "value": 24.0,
+                  "value": 136.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -56697,7 +56748,7 @@
     ],
     "viewOffset": [
       -226,
-      197
+      -37
     ],
     "viewZoom": 1.0,
     "transitions": {
@@ -56712,7 +56763,7 @@
       "hideInEditor": true,
       "viewOffset": [
         -226,
-        197
+        -37
       ],
       "viewZoom": 1.0
     }
