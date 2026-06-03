@@ -2667,11 +2667,54 @@
               "type": "DashboardTriggerItem",
               "ghostAddress": "/states/ifEffect/processors/pumpSize/trigger",
               "controllable": "/states/ifEffect/processors/pumpSize/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    240.0,
+                    70.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    90.0,
+                    90.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/states/imaginaryFriendManager/processors/ifUnity/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "IF Unity",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": 20,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 46",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/states/imaginaryFriendManager/processors/ifUnity/trigger",
+              "controllable": "/states/imaginaryFriendManager/processors/ifUnity/trigger"
             }
           ],
           "viewOffset": [
-            -120,
-            -23
+            -531,
+            -46
           ],
           "viewZoom": 1.056640625
         }
@@ -3263,13 +3306,56 @@
               "type": "DashboardTriggerItem",
               "ghostAddress": "/states/gif/processors/bonnetA13/trigger",
               "controllable": "/states/gif/processors/bonnetA13/trigger"
+            },
+            {
+              "parameters": [
+                {
+                  "value": [
+                    420.0,
+                    -420.0
+                  ],
+                  "controlAddress": "/viewUIPosition"
+                },
+                {
+                  "value": [
+                    140.0,
+                    140.0
+                  ],
+                  "controlAddress": "/viewUISize"
+                },
+                {
+                  "value": "/states/gif/processors/flipImageA14/trigger",
+                  "controlAddress": "/target"
+                },
+                {
+                  "value": "Flip Image A14",
+                  "controlAddress": "/customText",
+                  "enabled": true
+                },
+                {
+                  "value": 22,
+                  "hexMode": false,
+                  "controlAddress": "/textSize",
+                  "enabled": true
+                },
+                {
+                  "value": "",
+                  "controlAddress": "/customImage",
+                  "enabled": false
+                }
+              ],
+              "niceName": "Item 14",
+              "hideInEditor": true,
+              "type": "DashboardTriggerItem",
+              "ghostAddress": "/states/gif/processors/flipImageA14/trigger",
+              "controllable": "/states/gif/processors/flipImageA14/trigger"
             }
           ],
           "viewOffset": [
-            -836,
-            87
+            -1063,
+            103
           ],
-          "viewZoom": 1.0
+          "viewZoom": 1.234375
         },
         "editing": true
       },
@@ -7114,6 +7200,7 @@
               "niceName": "Static Lighting Sky"
             },
             "Imaginary_Friend_Mngr": {
+              "editorIsCollapsed": true,
               "containers": {
                 "ImaginaryFriendMngr": {
                   "parameters": [
@@ -7126,6 +7213,7 @@
                       "controlAddress": "/cameraPosition"
                     }
                   ],
+                  "editorIsCollapsed": true,
                   "owned": true,
                   "niceName": "ImaginaryFriendMngr"
                 }
@@ -7134,6 +7222,7 @@
               "niceName": "Imaginary Friend Mngr"
             },
             "Imaginary_Friend": {
+              "editorIsCollapsed": true,
               "containers": {
                 "ImaginaryFriendBe": {
                   "parameters": [
@@ -7142,19 +7231,19 @@
                       "controlAddress": "/shaking"
                     },
                     {
-                      "value": 0.111964151263237,
+                      "value": 0.2306460291147232,
                       "controlAddress": "/size"
                     },
                     {
-                      "value": 0.04052358939510435,
+                      "value": 0.0405235833991403,
                       "controlAddress": "/breathAmplitude"
                     },
                     {
-                      "value": 1.066181795429914,
+                      "value": 1.07451390231702,
                       "controlAddress": "/breathSpeed"
                     },
                     {
-                      "value": 0.1752204895019531,
+                      "value": 0.2273937314748764,
                       "controlAddress": "/particleSizeFactor"
                     },
                     {
@@ -7166,40 +7255,40 @@
                       "controlAddress": "/perlinSpeed"
                     },
                     {
-                      "value": 60.92541768626492,
+                      "value": 0.0,
                       "controlAddress": "/rate1"
                     },
                     {
-                      "value": 7.860419862754521,
+                      "value": 0.0,
                       "controlAddress": "/life1"
                     },
                     {
-                      "value": 2,
+                      "value": 0,
                       "hexMode": false,
                       "controlAddress": "/selectedColor1"
                     },
                     {
-                      "value": 0.001285522312795412,
+                      "value": 0.0,
                       "controlAddress": "/turbulence1"
                     },
                     {
-                      "value": 2.362283437858701,
+                      "value": 7.001558303833008,
                       "controlAddress": "/turbulence1Frequency"
                     },
                     {
-                      "value": 0.000629120499354485,
+                      "value": 0.0,
                       "controlAddress": "/gravity"
                     },
                     {
-                      "value": 500.0,
+                      "value": 499.9999675363495,
                       "controlAddress": "/rate2"
                     },
                     {
-                      "value": 0.690000840818774,
+                      "value": 0.1567919227863792,
                       "controlAddress": "/life2"
                     },
                     {
-                      "value": 0.002315680479659162,
+                      "value": 0.9457408021916471,
                       "controlAddress": "/turbulence2"
                     },
                     {
@@ -7215,6 +7304,7 @@
                       "controlAddress": "/smileAttractionForce"
                     }
                   ],
+                  "editorIsCollapsed": true,
                   "owned": true,
                   "niceName": "ImaginaryFriendBe"
                 },
@@ -7229,11 +7319,11 @@
                       "controlAddress": "/attractionForce"
                     },
                     {
-                      "value": 0.004443110141387763,
+                      "value": 4.447548156831544,
                       "controlAddress": "/stickForce"
                     },
                     {
-                      "value": 0.001132788783674704,
+                      "value": 1.133920273544752,
                       "controlAddress": "/forceAreaSize"
                     }
                   ],
@@ -7242,6 +7332,7 @@
                   "niceName": "ConformToSphereController"
                 },
                 "Sphere": {
+                  "editorIsCollapsed": true,
                   "containers": {
                     "BrownianMotion": {
                       "editorIsCollapsed": true,
@@ -7289,6 +7380,7 @@
                   "niceName": "Sphere"
                 },
                 "Point_Light": {
+                  "editorIsCollapsed": true,
                   "containers": {
                     "Light": {
                       "parameters": [
@@ -17076,8 +17168,8 @@
           "parameters": [
             {
               "value": [
-                "\\\\?\\usb#vid_1235&pid_0061#5&2a83cfe&0&1#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\global",
-                "\\\\?\\usb#vid_1235&pid_0061#5&2a83cfe&0&1#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\global"
+                "\\\\?\\usb#vid_1235&pid_0061#7&314506aa&0&3#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\global",
+                "\\\\?\\usb#vid_1235&pid_0061#7&314506aa&0&3#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\\global"
               ],
               "inputName": "Launch Control XL",
               "outputName": "Launch Control XL",
@@ -17532,7 +17624,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 81,
+              "value": 84,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17550,7 +17642,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 53,
+              "value": 54,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17604,7 +17696,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 74,
+              "value": 45,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17622,7 +17714,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 14,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17640,7 +17732,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 46,
+              "value": 15,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17676,7 +17768,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 55,
+              "value": 48,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17748,7 +17840,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 73,
+              "value": 64,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17766,7 +17858,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 16,
+              "value": 12,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -17784,7 +17876,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 55,
+              "value": 38,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -18054,7 +18146,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 49,
+              "value": 46,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -18072,7 +18164,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 27,
+              "value": 28,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -18090,7 +18182,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 74,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -18108,7 +18200,7 @@
               "feedbackOnly": false
             },
             {
-              "value": 0,
+              "value": 127,
               "minValue": 0,
               "maxValue": 127,
               "default": 0,
@@ -18355,7 +18447,7 @@
                   "controlAddress": "/lastChannel"
                 },
                 {
-                  "value": 91,
+                  "value": 73,
                   "hexMode": false,
                   "controlAddress": "/lastPitch"
                 },
@@ -19365,12 +19457,12 @@
                   "controlAddress": "/lastChannel"
                 },
                 {
-                  "value": 37,
+                  "value": 50,
                   "hexMode": false,
                   "controlAddress": "/lastPitch"
                 },
                 {
-                  "value": 57,
+                  "value": 42,
                   "hexMode": false,
                   "controlAddress": "/lastVelocity"
                 }
@@ -19690,11 +19782,12 @@
         "values": {
           "containers": {
             "Gif": {
+              "editorIsCollapsed": true,
               "containers": {
                 "GIF": {
                   "parameters": [
                     {
-                      "value": 0.5433070659637451,
+                      "value": 0.1771653592586517,
                       "controlMode": 2,
                       "reference": {
                         "value": "/customVariables/gif/variables/scale/scale",
@@ -19703,7 +19796,7 @@
                       "controlAddress": "/Scale"
                     },
                     {
-                      "value": -0.0803149938583374,
+                      "value": -0.2007873952388763,
                       "controlMode": 2,
                       "reference": {
                         "value": "/customVariables/gif/variables/tx/tx",
@@ -19712,7 +19805,7 @@
                       "controlAddress": "/Tx"
                     },
                     {
-                      "value": -0.2341338396072388,
+                      "value": -0.1102361977100372,
                       "controlMode": 2,
                       "reference": {
                         "value": "/customVariables/gif/variables/ty/ty",
@@ -19721,7 +19814,7 @@
                       "controlAddress": "/Ty"
                     },
                     {
-                      "value": 1.0,
+                      "value": 0.0,
                       "controlMode": 2,
                       "reference": {
                         "value": "/customVariables/gif/variables/opacity/opacity",
@@ -19730,6 +19823,7 @@
                       "controlAddress": "/Opacity"
                     }
                   ],
+                  "editorIsCollapsed": true,
                   "owned": true,
                   "niceName": "GIF"
                 }
@@ -19823,7 +19917,7 @@
                       "DESCRIPTION": "Scale",
                       "FULL_PATH": "/Gif/GIF/Scale",
                       "VALUE": [
-                        0.481102
+                        0.2716535329818726
                       ],
                       "RANGE": [
                         {
@@ -19838,7 +19932,7 @@
                       "DESCRIPTION": "Tx",
                       "FULL_PATH": "/Gif/GIF/Tx",
                       "VALUE": [
-                        0.000314951
+                        -0.0433070957660675
                       ],
                       "RANGE": [
                         {
@@ -19853,7 +19947,7 @@
                       "DESCRIPTION": "Ty",
                       "FULL_PATH": "/Gif/GIF/Ty",
                       "VALUE": [
-                        -0.155984
+                        -0.09763780236244202
                       ],
                       "RANGE": [
                         {
@@ -19894,6 +19988,12 @@
                       "TYPE": "N",
                       "DESCRIPTION": "Bonnet",
                       "FULL_PATH": "/Gif/GIF/Bonnet",
+                      "ACCESS": 3
+                    },
+                    "Flipimage": {
+                      "TYPE": "N",
+                      "DESCRIPTION": "Flipimage",
+                      "FULL_PATH": "/Gif/GIF/Flipimage",
                       "ACCESS": 3
                     }
                   }
@@ -20008,7 +20108,7 @@
         "params": {
           "parameters": [
             {
-              "value": 0.2125984281301498,
+              "value": 0.220472440123558,
               "controlAddress": "/outVolume"
             }
           ],
@@ -20271,7 +20371,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.04052358939510435,
+                  "value": 0.0405235833991403,
                   "minValue": 0,
                   "maxValue": 1,
                   "default": 0,
@@ -20292,7 +20392,7 @@
             {
               "parameters": [
                 {
-                  "value": 1.066181795429914,
+                  "value": 1.07451390231702,
                   "minValue": 0,
                   "maxValue": 10,
                   "default": 0,
@@ -20334,7 +20434,7 @@
             {
               "parameters": [
                 {
-                  "value": 60.92541768626492,
+                  "value": 0.0,
                   "minValue": 0,
                   "maxValue": 200,
                   "default": 0,
@@ -20355,7 +20455,7 @@
             {
               "parameters": [
                 {
-                  "value": 7.860419862754521,
+                  "value": 0.0,
                   "minValue": 0,
                   "maxValue": 20,
                   "default": 0,
@@ -20376,7 +20476,7 @@
             {
               "parameters": [
                 {
-                  "value": 500.0,
+                  "value": 499.9999675363495,
                   "minValue": 0,
                   "maxValue": 500,
                   "default": 0,
@@ -20397,7 +20497,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.690000840818774,
+                  "value": 0.1567919227863792,
                   "minValue": 0,
                   "maxValue": 10,
                   "default": 0,
@@ -20481,7 +20581,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.004443110141387763,
+                  "value": 4.447548156831544,
                   "minValue": 0,
                   "maxValue": 50,
                   "default": 0,
@@ -20502,7 +20602,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.001132788783674704,
+                  "value": 1.133920273544752,
                   "minValue": 0,
                   "maxValue": 20,
                   "default": 0,
@@ -20523,7 +20623,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.001285522312795412,
+                  "value": 0.0,
                   "minValue": 0,
                   "maxValue": 10,
                   "default": 0,
@@ -20544,7 +20644,7 @@
             {
               "parameters": [
                 {
-                  "value": 2.362283437858701,
+                  "value": 7.001558303833008,
                   "minValue": 0,
                   "maxValue": 10,
                   "default": 0,
@@ -20565,7 +20665,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.002315680479659162,
+                  "value": 0.9457408021916471,
                   "minValue": 0,
                   "maxValue": 10,
                   "default": 0,
@@ -20586,7 +20686,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.000629120499354485,
+                  "value": 0.0,
                   "minValue": -10,
                   "maxValue": 10,
                   "default": 0,
@@ -20700,7 +20800,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.001000000047497451,
+                  "value": 1.0,
                   "alwaysNotify": true,
                   "controlAddress": "/weight"
                 },
@@ -21660,7 +21760,7 @@
             {
               "parameters": [
                 {
-                  "value": 1.0,
+                  "value": 0.0,
                   "controlAddress": "/weight"
                 },
                 {
@@ -22184,7 +22284,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.111964151263237,
+                  "value": 0.2306460291147232,
                   "minValue": 0,
                   "maxValue": 1,
                   "default": 0,
@@ -22205,9 +22305,9 @@
             {
               "parameters": [
                 {
-                  "value": 0.1752204895019531,
+                  "value": 0.2273937314748764,
                   "minValue": 0.001000000047497451,
-                  "maxValue": 0.300000011920929,
+                  "maxValue": 0.6000000238418579,
                   "default": 0,
                   "controlAddress": "/particleSizeFactor",
                   "feedbackOnly": false,
@@ -22248,7 +22348,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.5433070659637451,
+                  "value": 0.1771653592586517,
                   "minValue": 0,
                   "maxValue": 5,
                   "default": 0.9143810272216797,
@@ -22269,7 +22369,7 @@
             {
               "parameters": [
                 {
-                  "value": -0.0803149938583374,
+                  "value": -0.2007873952388763,
                   "minValue": -1,
                   "maxValue": 1,
                   "default": 0,
@@ -22290,7 +22390,7 @@
             {
               "parameters": [
                 {
-                  "value": -0.2341338396072388,
+                  "value": -0.1102361977100372,
                   "minValue": -1,
                   "maxValue": 1,
                   "default": 0,
@@ -22311,7 +22411,7 @@
             {
               "parameters": [
                 {
-                  "value": 1.0,
+                  "value": 0.0,
                   "minValue": 0,
                   "maxValue": 1,
                   "default": 1,
@@ -24585,8 +24685,8 @@
         "parameters": [
           {
             "value": [
-              -1917.352905273438,
-              7.5294189453125
+              -1920.0,
+              20.0
             ],
             "controlAddress": "/viewUIPosition"
           },
@@ -25592,7 +25692,7 @@
                           "controlAddress": "/length"
                         },
                         {
-                          "value": 0.4094488322734833,
+                          "value": 0.5826771855354309,
                           "controlAddress": "/position"
                         },
                         {
@@ -25670,6 +25770,24 @@
                         0
                       ],
                       "viewZoom": 1.0
+                    }
+                  },
+                  {
+                    "niceName": "Damping",
+                    "type": "Damping",
+                    "filterParams": {
+                      "parameters": [
+                        {
+                          "value": 1.0,
+                          "controlAddress": "/force"
+                        },
+                        {
+                          "value": 0.1116071417927742,
+                          "controlAddress": "/friction"
+                        }
+                      ],
+                      "paramLinks": {
+                      }
                     }
                   }
                 ],
@@ -26759,7 +26877,7 @@
                         {
                           "value": [
                             0.001000000047497451,
-                            0.300000011920929
+                            0.6000000238418579
                           ],
                           "controlAddress": "/targetMin_Max"
                         }
@@ -27303,8 +27421,8 @@
         "parameters": [
           {
             "value": [
-              -1466.352905273438,
-              7.5294189453125
+              -1460.0,
+              20.0
             ],
             "controlAddress": "/viewUIPosition"
           },
@@ -29711,15 +29829,15 @@
         "parameters": [
           {
             "value": [
-              -2306.35302734375,
-              7.5294189453125
+              -2320.0,
+              20.0
             ],
             "controlAddress": "/viewUIPosition"
           },
           {
             "value": [
-              379.35302734375,
-              255.0
+              380.0,
+              240.0
             ],
             "controlAddress": "/viewUISize"
           },
@@ -30758,6 +30876,83 @@
               }
             },
             {
+              "niceName": "Flip Image A14",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": "/modules/mpd218/values/_10_D2",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "From Input Value",
+                    "type": "From Input Value",
+                    "comparator": {
+                      "parameters": [
+                        {
+                          "value": ">",
+                          "controlAddress": "/comparisonFunction"
+                        },
+                        {
+                          "value": 0,
+                          "hexMode": false,
+                          "controlAddress": "/reference"
+                        }
+                      ],
+                      "hideInEditor": true
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "consequences": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlAddress": "/cancelDelaysOnTrigger"
+                  }
+                ],
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "Consequence",
+                    "commandModule": "tdOSCQuery",
+                    "commandPath": "",
+                    "commandType": "Trigger",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/Gif/GIF/Flipimage",
+                          "controlAddress": "/target"
+                        }
+                      ],
+                      "paramLinks": {
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "consequencesOff": {
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              }
+            },
+            {
               "parameters": [
                 {
                   "value": false,
@@ -31056,8 +31251,8 @@
                         },
                         {
                           "value": [
-                            -0.6000000238418579,
-                            0.6000000238418579
+                            -0.5,
+                            0.5
                           ],
                           "controlAddress": "/targetMin_Max"
                         }
@@ -31179,8 +31374,8 @@
                         },
                         {
                           "value": [
-                            -1.0,
-                            0.9850000143051147
+                            -0.3999999761581421,
+                            0.4000000059604645
                           ],
                           "controlAddress": "/targetMin_Max"
                         }
@@ -31963,8 +32158,8 @@
         "parameters": [
           {
             "value": [
-              -1840.0,
-              -320.0
+              -1920.0,
+              -280.0
             ],
             "controlAddress": "/viewUIPosition"
           },
@@ -32364,6 +32559,69 @@
                 ],
                 "viewZoom": 1.0
               }
+            },
+            {
+              "niceName": "IF Unity",
+              "editorIsCollapsed": true,
+              "type": "Action",
+              "conditions": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": "",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "From Input Value",
+                    "type": "From Input Value"
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "consequences": {
+                "parameters": [
+                  {
+                    "value": false,
+                    "controlAddress": "/cancelDelaysOnTrigger"
+                  }
+                ],
+                "items": [
+                  {
+                    "niceName": "Consequence",
+                    "type": "Consequence",
+                    "commandModule": "os",
+                    "commandPath": "Process",
+                    "commandType": "Launch App",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "../TW_Unity/Tw_Unity/_BUILD/Tw_Unity.exe",
+                          "controlAddress": "/target"
+                        }
+                      ],
+                      "paramLinks": {
+                      }
+                    }
+                  }
+                ],
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              },
+              "consequencesOff": {
+                "viewOffset": [
+                  0,
+                  0
+                ],
+                "viewZoom": 1.0
+              }
             }
           ],
           "viewOffset": [
@@ -32377,8 +32635,8 @@
         "parameters": [
           {
             "value": [
-              -1520.0,
-              -320.0
+              -1460.0,
+              -280.0
             ],
             "controlAddress": "/viewUIPosition"
           },
@@ -36678,11 +36936,11 @@
                           "controlAddress": "/component"
                         },
                         {
-                          "value": "Add",
+                          "value": "Equals",
                           "controlAddress": "/operator"
                         },
                         {
-                          "value": 0.2000000029802322,
+                          "value": 0.6000000238418579,
                           "controlAddress": "/value"
                         }
                       ],
@@ -36722,11 +36980,11 @@
                           "controlAddress": "/component"
                         },
                         {
-                          "value": "Subtract",
+                          "value": "Equals",
                           "controlAddress": "/operator"
                         },
                         {
-                          "value": 0.2000000178813934,
+                          "value": 0.309832900762558,
                           "controlAddress": "/value"
                         }
                       ],
@@ -46349,7 +46607,7 @@
             {
               "parameters": [
                 {
-                  "value": 24.0,
+                  "value": 318.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -52114,7 +52372,7 @@
             "controlAddress": "/viewUISize"
           },
           {
-            "value": true,
+            "value": false,
             "controlAddress": "/active"
           }
         ],
@@ -54819,7 +55077,7 @@
             {
               "parameters": [
                 {
-                  "value": 24.0,
+                  "value": 136.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -55026,7 +55284,7 @@
             {
               "parameters": [
                 {
-                  "value": 24.0,
+                  "value": 136.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -55233,7 +55491,7 @@
             {
               "parameters": [
                 {
-                  "value": 24.0,
+                  "value": 136.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -55444,8 +55702,8 @@
         "parameters": [
           {
             "value": [
-              -2306.0,
-              272.0
+              -2320.0,
+              280.0
             ],
             "controlAddress": "/viewUIPosition"
           },
@@ -55974,15 +56232,15 @@
         "parameters": [
           {
             "value": [
-              -2306.0,
-              430.0
+              -2320.0,
+              440.0
             ],
             "controlAddress": "/viewUIPosition"
           },
           {
             "value": [
-              366.0,
-              330.0
+              380.0,
+              340.0
             ],
             "controlAddress": "/viewUISize"
           },
@@ -55998,7 +56256,7 @@
             {
               "parameters": [
                 {
-                  "value": 136.0,
+                  "value": 24.0,
                   "controlAddress": "/listSize"
                 },
                 {
@@ -56438,8 +56696,8 @@
       }
     ],
     "viewOffset": [
-      -232,
-      70
+      -226,
+      197
     ],
     "viewZoom": 1.0,
     "transitions": {
@@ -56453,8 +56711,8 @@
     "comments": {
       "hideInEditor": true,
       "viewOffset": [
-        -232,
-        70
+        -226,
+        197
       ],
       "viewZoom": 1.0
     }
