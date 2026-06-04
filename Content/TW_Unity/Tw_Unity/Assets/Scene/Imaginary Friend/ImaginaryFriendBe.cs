@@ -187,7 +187,13 @@ public class ImaginaryFriendBe : MonoBehaviour
             _vfx.SetFloat("Smile Attraction Speed", smileAttractionSpeed);
 
         if (_vfx.HasGradient("ColorOverLife"))
-            _vfx.SetGradient("ColorOverLife", colorOverLife[selectedColor1]);
+        {
+            Gradient selectedColor = colorOverLife[selectedColor1];
+            Gradient actualColor = _vfx.GetGradient("ColorOverLife");
+            actualColor = LerpGradient(actualColor, selectedColor, 0.015f);
+            _vfx.SetGradient("ColorOverLife", actualColor);
+        }
+            
 
         if (_vfx.HasFloat("Size Factor"))
             _vfx.SetFloat("Size Factor", particleSizeFactor);
@@ -200,5 +206,29 @@ public class ImaginaryFriendBe : MonoBehaviour
 
         if (_vfx.HasVector3("Swirl Axis"))
             _vfx.SetVector3("Swirl Axis", swirlAxis);
+    }
+
+    Gradient LerpGradient(Gradient a, Gradient b, float t)
+    {
+        Gradient result = new Gradient();
+        int steps = 8;
+        GradientColorKey[] colorKeys = new GradientColorKey[steps];
+        GradientAlphaKey[] alphaKeys = new GradientAlphaKey[] {
+            new GradientAlphaKey(1f, 1f),
+            new GradientAlphaKey(1f, 1f)
+        };
+
+        for (int i = 0; i < steps; i++)
+        {
+            float time = i / (float)(steps - 1);
+            Color colorA = a.Evaluate(time);
+            Color colorB = b.Evaluate(time);
+            Color lerped = Color.Lerp(colorA, colorB, t);
+            lerped.a = 1f;
+            colorKeys[i] = new GradientColorKey(lerped, time);
+        }
+
+        result.SetKeys(colorKeys, alphaKeys);
+        return result;
     }
 }
